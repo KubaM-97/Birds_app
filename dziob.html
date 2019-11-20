@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /*            background-color: hsl(180, 91%, 68%);*/
+        }
+
+        body {
+            position: relative;
+            height: 100vh;
+            display: flex;
+        }
+
+        .layer {
+            height: 100vh;
+            width: 100%;
+            background: url(aaimg1.jpg) no-repeat center;
+            background-size: cover;
+            position: absolute;
+            animation: example 50s infinite ease-in;
+        }
+
+        .container {
+            box-sizing: border-box;
+            width: 50vw;
+            min-width: 350px;
+            padding: 25px;
+            margin: auto;
+            border: 1px solid red;
+            background-color: #66e3be;
+            opacity: 0.9;
+            font-weight: 600;
+        }
+
+        .question {
+            padding: 10px;
+            font-size: 28px;
+            border: 1px solid red;
+            border-radius: 10px;
+            flex-basis: 90%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .dzioby {
+            font-size: 20px;
+            margin-left: 0;
+            width: 100%;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .ans {
+            display: inline-block;
+            width: 92%;
+            font-size: 25px;
+            margin-bottom: 10px;
+            border: 1px solid red;
+            padding: 10px
+        }
+
+        .ans label {
+            width: 60%;
+            display: inline-block;
+        }
+
+        .ans img {
+            width: 79px;
+            padding-left: 30px;
+            vertical-align: middle
+        }
+
+        input[type=radio] {
+            opacity: 0;
+            margin: -5px
+        }
+        input[type=radio]:checked+span {
+            background-color: yellow
+        }
+
+        input[type=submit] {
+            box-sizing: border-box;
+            font-size: .em;
+            padding: 3px;
+            text-align: center;
+            background: red;
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layer"></div>
+    <div class="container">
+        <div class="question">
+            4/4. Kształt dzioba (opcjonalny)
+        </div>
+        <div class="dzioby">
+
+            <form action="">
+
+                <div class="ans">
+                    <label for="aa">
+                        <input type="radio" name="name" value="1" id="aa"><span>sss</span>Drapieżny
+                    </label><img src="drapiezne.png">
+
+                </div>
+
+
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="name" value="2" id="bb">Owadożercy
+                    </label><img src="owadozercy.png">
+
+                </div>
+
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="name" value="3" id="cc">Ziarnożercy
+                    </label><img src="ziarnozercy.png">
+
+                </div>
+
+                <div class="ans">
+                    <label for="dd">
+                        <input type="radio" name="name" value="4" id="dd">Rybne
+                    </label><img src="rybozercy.png">
+
+                </div>
+
+                <input type="submit" value="Pomiń">
+            </form>
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+    <!--<script>
+        $(function() {
+//            function schowaj() {
+//                $("img").fadeOut(4500);
+//            }
+
+            
+
+
+            $(".layer").click(fff); 
+           
+        });
+ let $nr = 0;
+        let $background_Image = ["aaimg0.jpg", "aaimg1.jpg", "aaimg2.jpg", "abimg3.jpg", "aaimg4.jpg"];
+
+                    function fff(){
+                        //photo's change
+                            $nr++;
+                            if ($nr >= 5) $nr = 0;
+                            $(".layer").animate({
+                                opacity: 1
+                            });
+                        
+                        let $file = `"${$background_Image[$nr]}"`;
+
+
+                        //            $(".layer").animate({opacity: 0}, 1000, function(){
+                        //                $(".layer").css('background-image', "url("+$file+")");
+                        //            $(".layer").css('background-repeat', "no-repeat");
+                        //            $(".layer").css('background-size', "cover");
+                        //            $(".layer").css('background-position', "center");
+                        //            $(".layer").animate({opacity: 1}, 1000);
+                        //            });
+
+                        $(".layer").animate({
+                            opacity: 0
+                        }, 1000, function() {
+                            $(".layer").css('background-image', "url(" + $file + ")")
+                                .css('background-repeat', "no-repeat")
+                                .css('background-size', "cover")
+                                .css('background-position', "center");
+                        });
+                        
+                            
+                        
+
+                        //setTimeout("schowaj()", 5000);
+                        
+setTimeout(fff, 1000);
+                    
+            };
+           
+
+    </script>-->
+</body></html>
