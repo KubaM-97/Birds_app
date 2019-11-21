@@ -22,7 +22,7 @@
         .layer {
             height: 100vh;
             width: 100%;
-            background: url(aaimg1.jpg) no-repeat center;
+            background: url(sowa.jpg) no-repeat center;
             background-size: cover;
             position: absolute;
             animation: example 50s infinite ease-in;
@@ -30,19 +30,22 @@
 
         .container {
             box-sizing: border-box;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
             min-width: 350px;
             width: 50vw;
-            max-width: 800px;
             margin: auto;
             border: 1px solid red;
             padding: 40px;
             background-color: #66e3be;
-            opacity: 0.9;
+            opacity: 0.6;
             font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            transition: all 1s linear;
+        }
+        .container:hover{
+            opacity: 0.9
         }
 
         .question {
@@ -60,20 +63,7 @@
             font-size: 22px;
             display: flex;
         }
-/*
-        .optlist{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            flex-basis: 40px;
-            
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-        }
-*/
+
         .optfgroup{
             display: inline-block;
         }
@@ -87,17 +77,18 @@
             padding: 6px;
             padding-left: 10px;
             flex-basis: 200px;
-/*
-            margin-bottom: 20px;
-            padding: 5px;
-            position: relative;
-            padding-left: 40px;
-*/
+            
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
         label{
             width: 100%;
             display: block;
+            cursor: pointer;
         }
+        
         .colour img{
             width: 18px;
             float: right;
@@ -106,7 +97,7 @@
         
         input[type=checkbox]
         {
-            opacity: 0.3;
+            opacity: 0;
             margin-right: -20px;
         }
         
@@ -124,6 +115,24 @@
         input[type=submit]:hover {
             background: red;
             color: white;
+        }
+        
+        
+        .checked{
+            background-color: #ffad08;
+        }
+        
+        .arrow, .arrow2 {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+        }
+        .arrow{
+            left: 5%;
+        }
+        .arrow2{
+            right: 5%;
         }
 
         /*
@@ -220,62 +229,62 @@
             </form>
         </div>
 
+       <a href="birds.html">
+           <img class="arrow" src="arrow.png" alt="strzałka w lewo">
+       </a>
+       <a href="dziob.html">
+           <img class="arrow2" src="arrow2.png" alt="strzałka w prawo">
+       </a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
-    <!--<script>
+     <script>
         $(function() {
-//            function schowaj() {
-//                $("img").fadeOut(4500);
-//            }
-
-            
-
-
-            $(".layer").click(fff); 
            
         });
- let $nr = 0;
-        let $background_Image = ["aaimg0.jpg", "aaimg1.jpg", "aaimg2.jpg", "abimg3.jpg", "aaimg4.jpg"];
+    </script>
+    <script>
+        $(function() {          
+           
+        $("input:checkbox").click(function(){
+               if(!($(this).is(":checked"))){
+                   $(this).closest(".colour").removeClass("checked");
+               }
+               else{
+                   
+               $(this).closest(".colour").addClass("checked");
+               }
+           }); 
+            
+        let $nr = 0;
+        let $background_Image = ["sowa.jpg", "orly.jpg", "bialorzytki.jpg", "czapla.jpg"];
 
-                    function fff(){
+                    setInterval(function(){
                         //photo's change
                             $nr++;
-                            if ($nr >= 5) $nr = 0;
+                            if ($nr >= $background_Image.length) $nr = 0;
                             $(".layer").animate({
                                 opacity: 1
                             });
                         
                         let $file = `"${$background_Image[$nr]}"`;
 
+                        
 
-                        //            $(".layer").animate({opacity: 0}, 1000, function(){
-                        //                $(".layer").css('background-image', "url("+$file+")");
-                        //            $(".layer").css('background-repeat', "no-repeat");
-                        //            $(".layer").css('background-size', "cover");
-                        //            $(".layer").css('background-position', "center");
-                        //            $(".layer").animate({opacity: 1}, 1000);
-                        //            });
+                                    $(".layer").animate({}, 2000, function(){
+                                        $(this).css('background-image', "url("+$file+")");
+                                    $(this).css('background-repeat', "no-repeat");
+                                    $(this).css('background-size', "cover");
+                                    $(this).css('background-position', "center");
+                                    });
 
-                        $(".layer").animate({
-                            opacity: 0
-                        }, 1000, function() {
-                            $(".layer").css('background-image', "url(" + $file + ")")
-                                .css('background-repeat', "no-repeat")
-                                .css('background-size', "cover")
-                                .css('background-position', "center");
-                        });
+                    },3000);
                         
                             
-                        
-
-                        //setTimeout("schowaj()", 5000);
-                        
-setTimeout(fff, 1000);
                     
-            };
+            });
            
 
-    </script>-->
+    </script>
 </body></html>

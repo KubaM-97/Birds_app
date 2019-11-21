@@ -11,46 +11,50 @@
             margin: 0;
             padding: 0;
             /*            background-color: hsl(180, 91%, 68%);*/
-                   }
-        body{ position: relative;
-        height: 100vh;
-            display: flex;}
+        }
+
+        body {
+            position: relative;
+            height: 100vh;
+            display: flex;
+        }
+
         .layer {
             height: 100vh;
             width: 100%;
-            background: url(aaimg1.jpg) no-repeat center;
+            background: url(sowa.jpg) no-repeat center;
             background-size: cover;
             position: absolute;
             animation: example 50s infinite ease-in;
         }
-        div
-        {
-            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);}
-        
-        .ans:hover{
-            
-            -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.75);
-box-shadow: inset 3px 3px 5px 0px rgba(0,0,0,0.75);
+
+        div {
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         }
-        
+
+        .ans:hover {
+
+            -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: inset 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
         .container {
             box-sizing: border-box;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
             width: 50vw;
             min-width: 350px;
+            padding: 40px;
             margin: auto;
             border: 1px solid red;
-            padding: 40px;
-            z-index: 3;
             background-color: #66e3be;
-            opacity: 0.9;
+            opacity: 0.6;
             font-weight: 600;
+            transition: all 1s linear;
+        }
+        .container:hover{
+            opacity: 0.9;
         }
 
         .question {
@@ -62,7 +66,8 @@ box-shadow: inset 3px 3px 5px 0px rgba(0,0,0,0.75);
             text-align: center;
             margin-bottom: 115px;
         }
-        .ans{
+
+        .ans {
             display: flex;
             flex-basis: 100%;
             justify-content: center;
@@ -78,16 +83,27 @@ box-shadow: inset 3px 3px 5px 0px rgba(0,0,0,0.75);
             transition: all 0.3s linear;
             margin-bottom: 20px
         }
-        
+
         .ans:hover {
             background: red;
             color: white;
             cursor: pointer;
         }
-        
-        
-        
-/*
+
+.arrow, .arrow2 {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+        }
+        .arrow{
+            left: 5%;
+        }
+        .arrow2{
+            right: 5%;
+        }
+
+        /*
     @keyframes example {
       20% {
           width: 100%;
@@ -118,78 +134,63 @@ box-shadow: inset 3px 3px 5px 0px rgba(0,0,0,0.75);
 
 <body>
     <div class="layer"></div>
-        <div class="container">
-            <div class="question">
-                2/4. Wielkość ciała
-            </div>
+    <div class="container">
+        <div class="question">
+            2/4. Wielkość ciała
+        </div>
 
-                <div class="ans">
-                    Mały (mieszczący się w dłoni)
-                </div>
+        <div class="ans">
+            Mały (mieszczący się w dłoni)
+        </div>
 
-                <div class="ans">
-                    Duży
-                </div>
+        <div class="ans">
+            Duży
+        </div>
 
-                
-        
+
+        <a href="data_obserwacji.html">
+            <img class="arrow" src="arrow.png" alt="strzałka w lewo">
+        </a>
+        <a href="colours.html">
+            <img class="arrow2" src="arrow2.png" alt="strzałka w prawo">
+        </a>
     </div>
-    <!--<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
     <script>
-        $(function() {
-//            function schowaj() {
-//                $("img").fadeOut(4500);
-//            }
-
-            
-
-
-            $(".layer").click(fff); 
+        $(function() {          
            
-        });
- let $nr = 0;
-        let $background_Image = ["aaimg0.jpg", "aaimg1.jpg", "aaimg2.jpg", "abimg3.jpg", "aaimg4.jpg"];
+        
+        let $nr = 0;
+        let $background_Image = ["sowa.jpg", "orly.jpg", "bialorzytki.jpg", "czapla.jpg"];
 
-                    function fff(){
+                    setInterval(function(){
                         //photo's change
                             $nr++;
-                            if ($nr >= 5) $nr = 0;
+                            if ($nr >= $background_Image.length) $nr = 0;
                             $(".layer").animate({
                                 opacity: 1
                             });
                         
                         let $file = `"${$background_Image[$nr]}"`;
 
+                        
 
-                        //            $(".layer").animate({opacity: 0}, 1000, function(){
-                        //                $(".layer").css('background-image', "url("+$file+")");
-                        //            $(".layer").css('background-repeat', "no-repeat");
-                        //            $(".layer").css('background-size', "cover");
-                        //            $(".layer").css('background-position', "center");
-                        //            $(".layer").animate({opacity: 1}, 1000);
-                        //            });
+                                    $(".layer").animate({}, 2000, function(){
+                                        $(this).css('background-image', "url("+$file+")");
+                                    $(this).css('background-repeat', "no-repeat");
+                                    $(this).css('background-size', "cover");
+                                    $(this).css('background-position', "center");
+                                    });
 
-                        $(".layer").animate({
-                            opacity: 0
-                        }, 1000, function() {
-                            $(".layer").css('background-image', "url(" + $file + ")")
-                                .css('background-repeat', "no-repeat")
-                                .css('background-size', "cover")
-                                .css('background-position', "center");
-                        });
+                    },3000);
                         
                             
-                        
-
-                        //setTimeout("schowaj()", 5000);
-                        
-setTimeout(fff, 1000);
                     
-            };
+            });
            
 
-    </script>-->
+    </script>
 </body>
 
 </html>

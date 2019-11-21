@@ -22,7 +22,7 @@
         .layer {
             height: 100vh;
             width: 100%;
-            background: url(aaimg1.jpg) no-repeat center;
+            background: url(sowa.jpg) no-repeat center;
             background-size: cover;
             position: absolute;
             animation: example 50s infinite ease-in;
@@ -36,10 +36,14 @@
             margin: auto;
             border: 1px solid red;
             background-color: #66e3be;
-            opacity: 0.9;
+            opacity: 0.7;
+               transition: all 1s linear;
+            
             font-weight: 600;
         }
-
+        .container:hover{
+            opacity: 0.9;
+        }
         .question {
             padding: 10px;
             font-size: 28px;
@@ -64,29 +68,26 @@
         .ans {
             display: inline-block;
             width: 92%;
-            font-size: 25px;
+            font-size: 35px;
             margin-bottom: 10px;
             border: 1px solid red;
             padding: 10px
         }
 
         .ans label {
-            width: 60%;
+            width: 100%;
             display: inline-block;
+            align-items: center
         }
 
         .ans img {
-            width: 79px;
-            padding-left: 30px;
-            vertical-align: middle
+            width: 75px;
+            float: right;
         }
 
         input[type=radio] {
             opacity: 0;
             margin: -5px
-        }
-        input[type=radio]:checked+span {
-            background-color: yellow
         }
 
         input[type=submit] {
@@ -96,6 +97,22 @@
             text-align: center;
             background: red;
             color: white
+        }
+
+        .checked {
+            background-color: #ffad08;
+        }
+.arrow, .arrow2 {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+        }
+        .arrow{
+            left: 5%;
+        }
+        .arrow2{
+            right: 5%;
         }
     </style>
 </head>
@@ -112,8 +129,8 @@
 
                 <div class="ans">
                     <label for="aa">
-                        <input type="radio" name="name" value="1" id="aa"><span>sss</span>Drapieżny
-                    </label><img src="drapiezne.png">
+                        <input type="radio" name="name" value="1" id="aa">Drapieżny
+                    <img src="drapiezne.png"></label>
 
                 </div>
 
@@ -121,84 +138,74 @@
                 <div class="ans">
                     <label>
                         <input type="radio" name="name" value="2" id="bb">Owadożercy
-                    </label><img src="owadozercy.png">
+                    <img src="owadozercy.png"></label>
 
                 </div>
 
                 <div class="ans">
                     <label>
                         <input type="radio" name="name" value="3" id="cc">Ziarnożercy
-                    </label><img src="ziarnozercy.png">
+                    <img src="ziarnozercy.png"></label>
 
                 </div>
 
                 <div class="ans">
                     <label for="dd">
                         <input type="radio" name="name" value="4" id="dd">Rybne
-                    </label><img src="rybozercy.png">
+                    <img src="rybozercy.png"></label>
 
                 </div>
 
                 <input type="submit" value="Pomiń">
+                <input type="submit" value="Wyślij">
             </form>
 
         </div>
-
+        <a href="colours.html">
+            <img class="arrow" src="arrow.png" alt="strzałka w lewo">
+        </a>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
-    <!--<script>
-        $(function() {
-//            function schowaj() {
-//                $("img").fadeOut(4500);
-//            }
 
-            
-
-
-            $(".layer").click(fff); 
+    <script>
+        $(function() {          
            
-        });
- let $nr = 0;
-        let $background_Image = ["aaimg0.jpg", "aaimg1.jpg", "aaimg2.jpg", "abimg3.jpg", "aaimg4.jpg"];
+          $("input:radio").click(function() {
+                $(".ans").removeClass("checked");
+                $(this).closest(".ans").addClass("checked");
+            });
+            
+        let $nr = 0;
+        let $background_Image = ["sowa.jpg", "orly.jpg", "bialorzytki.jpg", "czapla.jpg"];
 
-                    function fff(){
+                    setInterval(function(){
                         //photo's change
                             $nr++;
-                            if ($nr >= 5) $nr = 0;
+                            if ($nr >= $background_Image.length) $nr = 0;
                             $(".layer").animate({
                                 opacity: 1
                             });
                         
                         let $file = `"${$background_Image[$nr]}"`;
 
+                        
 
-                        //            $(".layer").animate({opacity: 0}, 1000, function(){
-                        //                $(".layer").css('background-image', "url("+$file+")");
-                        //            $(".layer").css('background-repeat', "no-repeat");
-                        //            $(".layer").css('background-size', "cover");
-                        //            $(".layer").css('background-position', "center");
-                        //            $(".layer").animate({opacity: 1}, 1000);
-                        //            });
+                                    $(".layer").animate({}, 2000, function(){
+                                        $(this).css('background-image', "url("+$file+")");
+                                    $(this).css('background-repeat', "no-repeat");
+                                    $(this).css('background-size', "cover");
+                                    $(this).css('background-position', "center");
+                                    });
 
-                        $(".layer").animate({
-                            opacity: 0
-                        }, 1000, function() {
-                            $(".layer").css('background-image', "url(" + $file + ")")
-                                .css('background-repeat', "no-repeat")
-                                .css('background-size', "cover")
-                                .css('background-position', "center");
-                        });
+                    },3000);
                         
                             
-                        
-
-                        //setTimeout("schowaj()", 5000);
-                        
-setTimeout(fff, 1000);
                     
-            };
+            });
            
 
-    </script>-->
-</body></html>
+    </script>
+</body>
+
+</html>
