@@ -6,235 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            /*            background-color: hsl(180, 91%, 68%);*/
-        }
-
-        body {
-            position: relative;
-            height: 100vh;
-            display: flex;
-        }
-
-        .layer {
-            height: 100vh;
-            width: 100%;
-            background: url(sowa.jpg) no-repeat center;
-            background-size: cover;
-            position: absolute;
-            animation: example 50s infinite ease-in;
-        }
-
-        .container {
-            box-sizing: border-box;
-            min-width: 350px;
-            width: 50vw;
-            margin: auto;
-            border: 1px solid red;
-            padding: 40px;
-            background-color: #66e3be;
-            opacity: 0.6;
-            font-weight: 600;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            transition: all 1s linear;
-        }
-        .container:hover{
-            opacity: 0.9
-        }
-
-        .question {
-            padding: 10px;
-            font-size: 28px;
-            border: 1px solid red;
-            border-radius: 10px;
-            flex-basis: 100%;
-            text-align: justify;
-            margin-bottom: 30px;
-        }
-
-        .content {
-            flex-basis: 90%;
-            font-size: 22px;
-            display: flex;
-        }
-
-        .optfgroup{
-            display: inline-block;
-        }
-        
-        .colour {
-            font-size: 20px;
-            display: flex;
-            justify-content: center;
-            border: 1px solid red;
-            margin-bottom: 20px;
-            padding: 6px;
-            padding-left: 10px;
-            flex-basis: 200px;
-            
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        label{
-            width: 100%;
-            display: block;
-            cursor: pointer;
-        }
-        
-        .colour img{
-            width: 18px;
-            float: right;
-            padding: 5px 2px 0 4px;
-        }
-        
-        input[type=checkbox]
-        {
-            opacity: 0;
-            margin-right: -20px;
-        }
-        
-
-        input[type=submit] {
-            width: 50%;
-            min-height: 30px;
-            cursor: pointer;
-            margin-top: 10px;
-            border-radius: 10px;
-            background: green;
-            color: white;
-        }
-
-        input[type=submit]:hover {
-            background: red;
-            color: white;
-        }
-        
-        
-        .checked{
-            background-color: #ffad08;
-        }
-        
-        .arrow, .arrow2 {
-            position: fixed;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 50px;
-        }
-        .arrow{
-            left: 5%;
-        }
-        .arrow2{
-            right: 5%;
-        }
-
-        /*
-    @keyframes example {
-      20% {
-          width: 100%;
-            background: url(czapla.jpg) no-repeat center;
-            background-size: cover;}
-        
-        40% {
-            background: url(aaimg2.jpg) no-repeat center;
-            background-size: cover;}
-        
-        60% {
-            background: url(abimg3.jpg) no-repeat center;
-            background-size: cover;}
-        
-        80% {
-            background: url(aaimg4.jpg) no-repeat center;
-            background-size: cover;}
-        
-        100% {
-            background: url(aaimg0.jpg) no-repeat center;
-            background-size: cover;}
-        
-        
-    }
-*/
-    </style>
+<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <div class="layer"></div>
+   <div class="layer"></div>
     <div class="container">
-        <div class="question">
-            3/4. Odcienie, które reprezentuje zaobserwowany ptak
-        </div>
-        <div class="content">
+      <div class="container__question--colours">3/4. Odcienie, które reprezentuje zaobserwowany ptak</div>
+      <div class="container__question__content--colours">
+        <form action>
+          <div class="container__question__optlist">
+            <div class="container__question__optfgroup">
+              <div class="container__question__colour">
+                <label for="colour1">
+                  <input type="checkbox" name="beak's colours" id="colour1" />Biały
+                  <img src="photos/Colours/white.png" alt="white colour" />
+                </label>
+              </div>
+              <div class="container__question__colour">
+                <label for="colour2">
+                  <input type="checkbox" name="beak's colours" id="colour2" />Czerwony
+                  <img src="photos/Colours/red.png" alt="red colour" />
+                </label>
+              </div>
+              <div class="container__question__colour">
+                <label for="colour3">
+                  <input type="checkbox" name="beak's colours" id="colour3" />Żółty
+                  <img src="photos/Colours/yellow.png" alt="yellow colour" />
+                </label>
+              </div>
+              <div class="container__question__colour">
+                <label for="colour4">
+                  <input type="checkbox" name="beak's colours" id="colour4" />Czarny
+                  <img src="photos/Colours/black.png" alt="black colour" />
+                </label>
+              </div>
+            </div>
+            <div class="container__question__optfgroup">
+              <div class="container__question__colour">
+                <label for="colour5">
+                  <input type="checkbox" name="beak's colours" id="colour5" />Niebieski
+                  <img src="photos/Colours/blue.png" alt="blue colour" />
+                </label>
+              </div>
+              <div class="container__question__colour">
+                <label for="colour6">
+                  <input type="checkbox" name="beak's colours" id="colour6" />Brązowy
+                  <img src="photos/Colours/brown.png" alt="brown colour" />
+                </label>
+              </div>
+              <div class="container__question__colour">
+                <label for="colour7">
+                  <input type="checkbox" name="beak's colours" id="colour7" />Szary
+                  <img src="photos/Colours/gray.png" alt="gray colour" />
+                </label>
+              </div>
+              <div class="container__question__colour">
+                <label for="colour8">
+                  <input type="checkbox" name="beak's colours" id="colour8H" />Zielony
+                  <img src="photos/Colours/green.png" alt="green colour" />
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="submit">
+            <label>
+              <input type="submit" class="container__goon" value="Dalej" />
+            </label>
+          </div>
+        </form>
+      </div>
 
-
-            <form action="">
-               <div class="optlist">
-               <div class="optfgroup">
-                    <div class="colour">
-                        <label for="colour1">
-                            <input type="checkbox" name="beak's colours" id="colour1">Biały<img src="white.png" alt="white colour">
-                        </label>
-                    </div>
-                    <div class="colour">
-                        <label for="colour2">
-                            <input type="checkbox" name="beak's colours" id="colour2">Czerwony<img src="red.png" alt="czerwień">
-                        </label>
-                    </div>
-                    <div class="colour">
-                        <label for="colour3">
-                            <input type="checkbox" name="beak's colours" id="colour3">Żółty <img src="yellow.png" alt="yellow colour">
-                        </label>
-                    </div>
-                    <div class="colour">
-                        <label for="colour4">
-                            <input type="checkbox" name="beak's colours" id="colour4">Czarny <img src="black.png" alt="black colour">
-                        </label>
-                    </div>
-                    </div>
-               <div class="optfgroup">
-                    <div class="colour">
-                        <label for="colour5">
-                            <input type="checkbox" name="beak's colours" id="colour5">Niebieski
-                            <img src="blue.png" alt="blue colour">
-                        </label>
-                    </div>
-                    <div class="colour">
-                        <label for="colour6">
-                            <input type="checkbox" name="beak's colours" id="colour6">Brązowy<img src="brown.png" alt="brown colour">
-                        </label>
-                    </div>
-                    <div class="colour">
-                        <label for="colour7">
-                            <input type="checkbox" name="beak's colours" id="colour7">Szary<img src="gray.png" alt="gray colour">
-                        </label>
-                    </div><div class="colour">
-                        <label for="colour8">
-                            <input type="checkbox" name="beak's colours" id="colour8H">Zielony<img src="green.png" alt="green colour">
-                            
-                        </label>
-                    </div></div>
-                    </div>
-                    <div class="submit">
-                        <label>
-                            <input type="submit" value="Dalej">
-                        </label>
-                    </div>
-                
-            </form>
-        </div>
-
-       <a href="birds.html">
-           <img class="arrow" src="arrow.png" alt="strzałka w lewo">
-       </a>
-       <a href="dziob.html">
-           <img class="arrow2" src="arrow2.png" alt="strzałka w prawo">
-       </a>
+      <a href="birds.html">
+        <img class="arrow-left" src="photos/Main-images/left_arrow.png" alt="left arrow" />
+      </a>
+      <a href="dziob.html">
+        <img class="arrow-right" src="photos/Main-images/right_arrow.png" alt="right arrow" />
+      </a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">

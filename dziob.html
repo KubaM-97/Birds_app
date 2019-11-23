@@ -5,164 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            /*            background-color: hsl(180, 91%, 68%);*/
-        }
+    <title>Document</title><link rel="stylesheet" href="main.css">
 
-        body {
-            position: relative;
-            height: 100vh;
-            display: flex;
-        }
-
-        .layer {
-            height: 100vh;
-            width: 100%;
-            background: url(sowa.jpg) no-repeat center;
-            background-size: cover;
-            position: absolute;
-            animation: example 50s infinite ease-in;
-        }
-
-        .container {
-            box-sizing: border-box;
-            width: 50vw;
-            min-width: 350px;
-            padding: 25px;
-            margin: auto;
-            border: 1px solid red;
-            background-color: #66e3be;
-            opacity: 0.7;
-               transition: all 1s linear;
-            
-            font-weight: 600;
-        }
-        .container:hover{
-            opacity: 0.9;
-        }
-        .question {
-            padding: 10px;
-            font-size: 28px;
-            border: 1px solid red;
-            border-radius: 10px;
-            flex-basis: 90%;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .dzioby {
-            font-size: 20px;
-            margin-left: 0;
-            width: 100%;
-
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        .ans {
-            display: inline-block;
-            width: 92%;
-            font-size: 35px;
-            margin-bottom: 10px;
-            border: 1px solid red;
-            padding: 10px
-        }
-
-        .ans label {
-            width: 100%;
-            display: inline-block;
-            align-items: center
-        }
-
-        .ans img {
-            width: 75px;
-            float: right;
-        }
-
-        input[type=radio] {
-            opacity: 0;
-            margin: -5px
-        }
-
-        input[type=submit] {
-            box-sizing: border-box;
-            font-size: .em;
-            padding: 3px;
-            text-align: center;
-            background: red;
-            color: white
-        }
-
-        .checked {
-            background-color: #ffad08;
-        }
-.arrow, .arrow2 {
-            position: fixed;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 50px;
-        }
-        .arrow{
-            left: 5%;
-        }
-        .arrow2{
-            right: 5%;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="layer"></div>
+    
+     <div class="layer"></div>
     <div class="container">
-        <div class="question">
+        <div class="container__question--bucks">
             4/4. Kształt dzioba (opcjonalny)
         </div>
-        <div class="dzioby">
+        <div class="container__content__bucks">
 
             <form action="">
 
-                <div class="ans">
+                <div class="container__content__ans--bucks">
                     <label for="aa">
                         <input type="radio" name="name" value="1" id="aa">Drapieżny
-                    <img src="drapiezne.png"></label>
+                    </label>
+                    <img src="photos/Bucks/drapiezne.png">
 
                 </div>
 
 
-                <div class="ans">
+                <div class="container__content__ans--bucks">
                     <label>
                         <input type="radio" name="name" value="2" id="bb">Owadożercy
-                    <img src="owadozercy.png"></label>
+                    </label>
+                    <img src="photos/Bucks/owadozercy.png">
 
                 </div>
 
-                <div class="ans">
+                <div class="container__content__ans--bucks">
                     <label>
                         <input type="radio" name="name" value="3" id="cc">Ziarnożercy
-                    <img src="ziarnozercy.png"></label>
+                    </label>
+                    <img src="photos/Bucks/ziarnozercy.png">
 
                 </div>
 
-                <div class="ans">
+                <div class="container__content__ans--bucks">
                     <label for="dd">
                         <input type="radio" name="name" value="4" id="dd">Rybne
-                    <img src="rybozercy.png"></label>
+                    </label>
+                    <img src="photos/Bucks/rybozercy.png">
 
                 </div>
 
-                <input type="submit" value="Pomiń">
-                <input type="submit" value="Wyślij">
+                <!-- <input type="submit" value="Pomiń"> -->
+                <input type="submit" class="container__goon" value="Wyślij">
             </form>
 
         </div>
         <a href="colours.html">
-            <img class="arrow" src="arrow.png" alt="strzałka w lewo">
+            <img class="arrow-left" src="photos/Main-images/left_arrow.png" alt="left arrow">
         </a>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">

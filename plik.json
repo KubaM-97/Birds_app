@@ -1,0 +1,68 @@
+{
+    "results": [
+    {
+        "id": "1",
+        "photo" : '<img src="photo/orzel.png">',
+        "opis" : "Orzeł bielik jest największym w Polsce ptakiem drapieżnym. Rozpiętość skrzydeł dochodzi do 2,5 m, a masa ciała do 7 kg. Dożywają 30 lat. Obecnie można spotkać u nas około 600par bielików, a w delcie Odry znajduje się ich unikatowa w skali  kolonia lęgowa Jesienią duże skupiska młodych bielików można spotkać w okolicach też stawów rybnych"
+    },
+    {
+        "id": "2",
+        "photo" : '<img src="photo/brodzce.png">',
+        "opis" : "brodzce są związane nierozłącznie ze środowiskiem wodnym.  – najczęściej brodzą w płytkiej wodzie i za pomocą długiego dzioba wyszukują w mule pokarm. Charakteryzują go długie nogi i dzioby oraz maskujące, brunatne lub szare upierzenie"
+    },
+    {
+        "id": "3",
+        "photo" : '<img src="photo/kulik.png">',
+        "opis" : "kulik jest największym przedstawicielem siewkowych w Polsce siewkowych. Ptak ten ma upierzenie . Młode już od pierwszych dni są zdolne do samodzielnego poszukiwania pokarmu. Po miesiącu uzyskują już zdolność lotu i stają się samodzielne. W wyniku niszczenia środowiska przez człowieka kulik stał się w Polsce ptakiem bardzo rzadkim i wycofał się z wielu terenów lęgowych (bagna, mokradła, miejsca słabo zarośnięte roślinnością krzewiastą, torfowiska, nadrzeczne łąki, wrzosowiska., jest to zapewne wynik osuszania terenów podmokłych i mechanizacja pracy przy zbiorze siana)"
+    },
+    {
+        "id": "4",
+        "photo" : '<img src="photo/mysikrolik.png">',
+        "opis" : "Mysikrólik Jedne z najmniejszych ptaków Europy (9 cm długości i ok. 5 g wagi) Występują w lasach, preferując bory iglaste. Sprawnie balansują nawet na najcieńszych gałązkach poszukując, drobnych bezkręgowców. Nieustannie w ruchu Pomimo maleńkich rozmiarów są zdolne do dalekich wędrówek. Spotykane na wybrzeżu, głównie Mierzei na Wiślanej."
+    },
+    {
+        "id": "5",
+        "photo" : '<img src="photo/pierwiosnek.png">',
+        "opis" : "Pierwiosnek Niewielkie, oliwkowo szare ubarwienie, ze znacznie jaśniejszym brzuszkiem : Spotykany w Polsce w lasach liściastych, ale też w parkach czy ogrodach, lasy na północy i wschodzie kraju NIE
+"
+    },
+    {
+        "id": "6",
+        "photo" : '<img src="photo/pomurnik.png">',
+        "opis" : "Pomurnik - Związany ściśle ze środowiskiem wysokogórski W Polsce występuje bardzo nielicznie, wyłącznie w Tatrach i Pieninach Całkowitą populację tego gatunku po naszej stronie gór szacuje się na zaledwie 50 par. Obserwować go można nawet zimą, ponieważ prowadzi wtedy osiadły tryb życia. Zazwyczaj przebywa n nagich, stromych ścianach. Jego lot jest bardzo sprawny i szybki, a przy wspinaczce pomaga sobie skrzydłami, co pozwala mu dynamicznie zmienić kierunek lotu, chwycić owada czy uciec drapieżnikowi
+"
+    },
+    {
+        "id": "7",
+        "photo" : '<img src="photo/pojdzka.png">',
+        "opis" : "Pójdźka rodzaj sowy o częściowo dziennym trybie życia Jak na sowę dosyć szybko biega. W poszukiwaniu pokarmu potrafi także grzebać w ziemi. Wycinka starych, głowiastych drzew wierzb, zamykanie dostępu do strychów i postępująca chemizacja środowiska mocno uderzyły w populację tych ptaków. Zamieszkuje tereny odkryte – pola, łąki, ugory, uprawy i leśne. Gnieździ też w budynkach, na strychach, w zagłębieniach muru. Odżywia się gryzoniami, płazami, gadami, dżdżownicami"
+    },
+    {
+        "id": "8",
+        "photo" : '<img src="photo/rybitwa.png">',
+        "opis" : "Rybitwa. Dość często mylone z mewami, z kolei w locie mogą przypominać JASKÓŁKĘ  Najczęściej latają dość nisko nad wodą, z głową skierowaną w dół.. Czasami tworzą gniazda na wyrastających z wody wrakach. Licznie gnieżdżą się wzdłuż środkowego brzegu Wisły i Bugu, a także na jeziorami i Morzem Bałtyckim, a nawet w trzcinach"
+    },
+    {
+        "id": "9",
+        "photo" : '<img src="photo/rycyk.png">',
+        "opis" : "Rycyk Osiąga wielkość gołębia domowego Gniazduje na terenach dużych łąk, w dolinach rzek, na bagniskach, a czasem na silnie wypastowanych pastwiskach. Preferuje zdecydowanie tereny o niskiej roślinności. Bardzo dobrze pływają  i niezwykle waleczne - potrafią wronę, mewę czy ptaka drapieżnego
+"
+    },
+    {
+        "id": "10",
+        "photo" : '<img src="photo/sieweczka.png">',
+        "opis" : "Sieweczka – niewielkie, krępo zbudowane ptaki zawiązane z otwartymi terenami położonymi w pobliżu rzek lub na wybrzeżach morskich. Warunkiem konicznym jej egzystencji jest obecność pobliska płytkich zbiorników wodnych Najmniejszy obok mysikrólika gatunek ptaka w Polsce. Posiada niewielki i bardzo ostro zakończony dzióbek "
+    },
+    {
+        "id": "11",
+        "photo" : '<img src="photo/strzyzyk.png">',
+        "opis" : "Strzyżyk zamieszkuje głównie wilgotne lasy liściaste, a także rzadziej na obrzeżach borów, w zaroślach śródpolnych, zrębach w parkach. W czasie lądowania rozkłada szeroko skrzydła i ogon, co sprawia wrażenie, jakby lądował na spadochronie. W zimie budują specjalne gniazda grupowe, w którym mieści się nawet kilkadziesiąt osobników"
+    },
+    {
+        "id": "12",
+        "photo" : '<img src="photo/zimorodek.png">',
+        "opis" : "Zimorodki Wbrew nazwie gatunku zimorodki nie gnieżdżą się zimą. Bardzo przywiązany do swojego terytorium. Nie zwykł przemieszczać się w grupach. Budują głębokie, nawet metrowej długości nory w skarpach nadrzecznych oraz w obrywach i wyrobiskach żwiru. Zimorodki odżywiają się niewielkimi rybami i owadami wodnymi. Na ofiary czatuje na wystających ponad wodę gałęziach, palikach, a bywa, że przysiada na końcówkach wędek. Błyskawicznie rzuca się do wody i nurkuje, starając się zachować pozycję zgodną z kierunkiem padania promieni słońca. Złapaną rybkę ogłusza, uderzając nią o gałąź błyskawicznymi ruchami dzioba. Następnie, rozpoczynając od głowy, połyka ją. W Polsce Jest gatunkiem nielicznym. Do połowów wymaga bardzo przezroczystej wody, stąd nie spotkamy go nad zanieczyszczonymi rzekami i stawami."
+    },
+    
+    ]
+}
