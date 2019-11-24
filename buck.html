@@ -1,0 +1,69 @@
+<!Doctype html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Document1</title>
+    <meta name="description" content="Program identyfikacji drobiu">
+    <meta name="keywords" content="Ornithology, birds, identification">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="photos/Main-images/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <div class="layer"></div>
+    <div class="container">
+        <div class="container__question container__question--bucks">
+            4/4. Kształt dzioba (opcjonalny)
+        </div>
+        <div class="container__content">
+
+            <form action="order.php">
+
+                <div class="container__content__ans container__content__ans--bucks">
+                    <label for="aa">
+                        <input type="radio" name="name" value="Drapieżny" id="aa">Drapieżne
+                        <img src="photos/Bucks/drapiezne.png"></label>
+                </div>
+
+
+                <div class="container__content__ans container__content__ans--bucks">
+                    <label>
+                        <input type="radio" name="name" value="Owadożercy" id="bb">Owadożerne
+                        <img src="photos/Bucks/owadozercy.png"></label>
+                </div>
+
+                <div class="container__content__ans container__content__ans--bucks">
+                    <label>
+                        <input type="radio" name="name" value="Ziarnożercy" id="cc">Ziarnożerne
+                        <img src="photos/Bucks/ziarnozercy.png"></label>
+                </div>
+
+                <div class="container__content__ans container__content__ans--bucks">
+                    <label for="dd">
+                        <input type="radio" name="name" value="Rybne" id="dd">Rybożerne
+                        <img src="photos/Bucks/rybozercy.png"></label>
+                </div>
+
+                <input type="submit" class="pomin" value="Pomiń">
+                <input type="submit" class="container__goon" value="Wyślij">
+            </form>
+
+        </div>
+        <a href="colours.html" alt="link">
+            <img class="arrow-left" src="photos/Main-images/left_arrow.png" alt="left arrow">
+        </a>
+    </div>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+
+    <script src="bootstrap-datepicker.js"></script>
+    <script src="script.js"></script>
+</body></html>
