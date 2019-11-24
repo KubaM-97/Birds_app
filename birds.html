@@ -1,0 +1,208 @@
+<!Doctype html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Data obserwacji</title>
+    <meta name="description" content="Program identyfikacji drobiu">
+    <meta name="keywords" content="Ornithology, birds, identification">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-datepicker.css">
+    <link href="jqueryUI/jquery-ui.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" href="photos/Main-images/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+
+<body>
+
+    <div class="layer"></div>
+
+    <form action="order.php" method="get">
+
+
+        <!--First step-->
+
+
+        <div class="container" id="1">
+
+            <div class="container__question container__question--date">1/4. Data obserwacji</div>
+
+            <div class="container__content">
+
+                <span class="container__content__data">Data:</span>
+
+                <div class="container__content__calendar">
+                    <input type="text" name id="datepicker" autocomplete="off" placeholder="dd-mm-yyyy" class="form-control" />
+                </div>
+
+                <input type="button" class="container__buttons__goon" value="Dalej">
+
+            </div>
+
+            <img class="arrow-right" src="photos/Main-images/right_arrow.png" alt="right arrow" />
+
+        </div>
+
+
+        <!--Second step-->
+
+
+        <div class="container" id="2">
+            <div class="container__question container__question--size">2/4. Wielkość ciała</div>
+
+            <div class="container__content--size">
+                <div class="container__content__ans container__content__ans--size">
+                    <label><input type="radio" name="bird's size">Mały (mieszczący się w dłoni)</label>
+                </div>
+
+                <div class="container__content__ans container__content__ans--size"><label><input type="radio" name="bird's size">Duży</label></div>
+            </div>
+
+            <input type="button" class="container__buttons__goon" value="Dalej">
+
+            <img class="arrow-left" src="photos/Main-images/left_arrow.png" alt="left arrow" />
+            <img class="arrow-right" src="photos/Main-images/right_arrow.png" alt="right arrow" />
+
+        </div>
+
+
+
+        <!--Third step-->
+
+
+        <div class="container" id="3">
+            <div class="container__question container__question--colours">3/4. Odcienie, które reprezentuje zaobserwowany ptak</div>
+            <div class="container__content">
+                <div class="container__content__optlist">
+                    <div class="container__content__optfgroup">
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour1">
+                                <input type="checkbox" name="beak's colours" id="colour1" />Biały
+                                <img src="photos/Colours/white.png" alt="white colour" />
+                            </label>
+                        </div>
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour2">
+                                <input type="checkbox" name="beak's colours" id="colour2" />Czerwony
+                                <img src="photos/Colours/red.png" alt="red colour" />
+                            </label>
+                        </div>
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour3">
+                                <input type="checkbox" name="beak's colours" id="colour3" />Żółty
+                                <img src="photos/Colours/yellow.png" alt="yellow colour" />
+                            </label>
+                        </div>
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour4">
+                                <input type="checkbox" name="beak's colours" id="colour4" />Czarny
+                                <img src="photos/Colours/black.png" alt="black colour" />
+                            </label>
+                        </div>
+                    </div>
+                    <div class="container__content__optfgroup">
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour5">
+                                <input type="checkbox" name="beak's colours" id="colour5" />Niebieski
+                                <img src="photos/Colours/blue.png" alt="blue colour" />
+                            </label>
+                        </div>
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour6">
+                                <input type="checkbox" name="beak's colours" id="colour6" />Brązowy
+                                <img src="photos/Colours/brown.png" alt="brown colour" />
+                            </label>
+                        </div>
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour7">
+                                <input type="checkbox" name="beak's colours" id="colour7" />Szary
+                                <img src="photos/Colours/gray.png" alt="gray colour" />
+                            </label>
+                        </div>
+                        <div class="container__content__ans container__content__ans--colour">
+                            <label for="colour8">
+                                <input type="checkbox" name="beak's colours" id="colour8" />Zielony
+                                <img src="photos/Colours/green.png" alt="green colour" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="button" class="container__buttons__goon" value="Dalej" />
+
+                <img class="arrow-left" src="photos/Main-images/left_arrow.png" alt="left arrow" />
+                <img class="arrow-right" src="photos/Main-images/right_arrow.png" alt="right arrow" />
+
+            </div>
+        </div>
+
+        <!--Fourth step-->
+
+
+        <div class="container" id="4">
+
+            <div class="container__question container__question--beaks">
+                4/4. Kształt dzioba (opcjonalny)
+            </div>
+
+            <div class="container__content--beaks">
+
+                <div class="container__content__ans container__content__ans--beaks">
+                    <label>
+                        <input type="radio" name="name" value="Drapieżny" id="Drapiezne">Drapieżne
+                        <img src="photos/Beaks/drapiezne.png" alt="Drapieżne">
+                    </label>
+                </div>
+
+
+                <div class="container__content__ans container__content__ans--beaks">
+                    <label>
+                        <input type="radio" name="name" value="Owadożercy" id="Owadożerne">Owadożerne
+                        <img src="photos/Beaks/owadozerne.png" alt="Owadożerne">
+                    </label>
+                </div>
+
+                <div class="container__content__ans container__content__ans--beaks">
+                    <label>
+                        <input type="radio" name="name" value="Ziarnożercy" id="Ziarnożerne">Ziarnożerne
+                        <img src="photos/Beaks/ziarnozerne.png" alt="Ziarnożerne">
+                    </label>
+                </div>
+
+                <div class="container__content__ans container__content__ans--beaks">
+                    <label>
+                        <input type="radio" name="name" value="Rybne" id="Rybożerne">Rybożerne
+                        <img src="photos/Beaks/rybozerne.png" alt="Rybożerne">
+                    </label>
+                </div>
+
+            </div>
+
+            <div class="container__buttons">
+                <input type="submit" class="container__buttons__skip" value="Pomiń">
+                <input type="submit" class="container__buttons__goon" value="Wyślij">
+            </div>
+
+            <img class="arrow-left" src="photos/Main-images/left_arrow.png" alt="left arrow" />
+        </div>
+    </form>
+
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+
+
+    <script src="bootstrap-datepicker.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

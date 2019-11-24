@@ -19,11 +19,20 @@ body {
     /* animation: example 50s infinite ease-in; */
 }
 
+form{
+    justify-content: center;
+    align-content: center;
+    width: 350px;
+    height: 700px;
+    margin: auto;
+    margin-top: 12px;
+}
+
 .container {
     box-sizing: border-box;
     width: 50vw;
     min-width: 350px;
-    max-width: 450px;
+    max-width: 350px;
     padding: 40px 40px 12px;
     margin: auto;
     border: 1px solid #e31c0e;
@@ -59,10 +68,13 @@ body {
             flex-basis: 100%;
             text-align: justify;
             margin-bottom: 30px;
+            font-size: 23px;
+            padding: 4px;
         }
 
-        &--bucks {
+        &--beaks {
             margin-bottom: 30px;
+            font-size: 23px;
         }
     }
 
@@ -73,13 +85,142 @@ body {
             padding-bottom: 70px;
         }
 
-        .pomin {
-            background-color: aqua;
+        &--beaks {
+            padding-bottom: 0;
         }
+
+        &__calendar {
+            display: flex;
+            flex-basis: 70%;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: auto 20px 30px;
+            min-height: 90px;
+            text-align: center;
+            transition: all 0.3s linear;
+
+            & input {
+                display: inline-block;
+                font-size: 1.3rem;
+                text-align: center;
+                margin-left: 30px;
+            }
+        }
+
+        &__ans {
+            & label {
+                width: 100% !important;
+            }
+
+            &--size {
+                display: flex;
+                flex-basis: 100%;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #e31c0e;
+                border-radius: 10px;
+                flex-wrap: wrap;
+                margin: auto;
+                font-size: 1.35rem;
+                text-align: center;
+                transition: all 0.3s linear;
+                margin-bottom: 25px;
+
+                & label {
+                    padding: 7px 10px;
+                }
+
+                & input[type=radio] {
+                    opacity: 0;
+                    margin: -5px;
+                }
+            }
+
+            &--colour {
+                font-size: 21px;
+                display: flex;
+                justify-content: center;
+                border: 1px solid #e31c0e;
+                margin-bottom: 20px;
+                padding-left: 12px;
+
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+
+                & label {
+                    width: 100%;
+                    align-items: center;
+                    display: inline-block;
+                    cursor: pointer;
+
+                    & input[type=checkbox] {
+                        opacity: 0;
+                        margin-right: -20px;
+                    }
+                }
+
+                & img {
+                    width: 28px;
+                    float: right;
+                    padding: 5px 2px 0 2px;
+                }
+            }
+
+            &--beaks {
+                display: inline-block;
+                font-size: 21px;
+                margin-bottom: 20px;
+                border: 1px solid #e31c0e;
+                border-radius: 10px;
+                padding: 0 5px;
+                width: 100%;
+
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+
+                & label {
+                    width: 100%;
+                    align-items: center;
+                    display: inline-block;
+                    padding: 5px 0;
+                    cursor: pointer;
+                    margin-bottom: 0 !important;
+                }
+
+                & input[type=radio] {
+                    opacity: 0;
+                    margin: -5px
+                }
+
+                & img {
+                    width: 60px;
+                    float: right;
+                }
+            }
+        }
+
+
+
+        &__optfgroup {
+            display: inline-block;
+            margin: 0 2px;
+        }
+
+
+
+        &__data {
+            font-size: 1.3rem;
+        }
+
     }
 
     &__content__ans--size,
-    &__content__ans--bucks,
+    &__content__ans--beaks,
     &__content__ans--colour,
     &__question,
     &__question__colour {
@@ -90,18 +231,18 @@ body {
 
 
     &__content__ans--size:hover,
-    &__content__ans--bucks:hover {
+    &__content__ans--beaks:hover {
         -webkit-box-shadow: inset 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: inset 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
         box-shadow: inset 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
     }
 
-    &__goon {
+    &__buttons__goon {
         width: 35%;
         min-height: 30px;
         cursor: pointer;
         border-radius: 10px;
-        background: green;
+        background: #0e7d15;
         color: white;
         display: inline-block;
         margin: 10px auto 0;
@@ -117,12 +258,17 @@ body {
             background: #e31c0e;
             color: white;
         }
-    }
 
 
-    &__content__data {
-        font-size: 1.3rem;
     }
+
+    &__buttons__skip {
+        background-color: #eb0909;
+        padding: 5px 11px;
+        border-radius: 10px;
+        color: white;
+    }
+
 
     &--date {
         padding: 40px 40px 12px;
@@ -131,124 +277,27 @@ body {
 
 
 
-    &__content__calendar {
-        display: flex;
-        flex-basis: 70%;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: auto;
-        margin-left: 30px;
-        min-height: 90px;
+
+
+    &__results {
+        font-size: 2rem;
+        padding: 10px;
+        background-color: antiquewhite;
+        margin-bottom: 30px;
         text-align: center;
-        transition: all 0.3s linear;
-
-        & input {
-            display: inline-block;
-            font-size: 1.3rem;
-            text-align: center;
-            margin-left: 30px;
-        }
-    }
-
-
-    &__content__ans--size {
-        display: flex;
-        flex-basis: 100%;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #e31c0e;
-        border-radius: 10px;
-        flex-wrap: wrap;
-        margin: auto;
-        padding: 15px 10px;
-        font-size: 1.35rem;
-        text-align: center;
-        transition: all 0.3s linear;
-        margin-bottom: 25px;
-
-
-        &:hover {
-            background-color: #ffad08;
-        }
-
-
-        & input[type=radio] {
-            opacity: 0;
-            margin: -5px;
-        }
-    }
-
-    &__content__optfgroup {
-        display: inline-block;
-        margin: 0 2px;
-    }
-
-    &__content__ans--colour {
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        border: 1px solid #e31c0e;
-        margin-bottom: 20px;
-        padding: 6px;
-        padding-left: 10px;
-
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-
-        & label {
-            width: 100%;
-            align-items: center;
-            display: inline-block;
-            padding-left: 10px;
-            cursor: pointer;
-
-            & input[type=checkbox] {
-                opacity: 0;
-                margin-right: -20px;
-            }
-        }
 
         & img {
-            width: 18px;
-            float: right;
-            padding: 5px 2px 0 4px;
+            width: 90%;
+            margin-bottom: 10px;
+        }
+
+        & h1 {
+            font-size: 2rem
         }
     }
 
-    &__content__ans--bucks {
+    &__buttons {
         display: inline-block;
-        font-size: 23px;
-        margin-bottom: 20px;
-        border: 1px solid #e31c0e;
-        border-radius: 10px;
-        padding: 0 5px;
-        width: 100%;
-
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-
-        & label {
-            width: 100%;
-            align-items: center;
-            display: inline-block;
-            padding-top: 10px;
-            cursor: pointer;
-        }
-
-        & input[type=radio] {
-            opacity: 0;
-            margin: -5px
-        }
-
-        & img {
-            width: 65px;
-            float: right;
-        }
     }
 
 }
@@ -262,6 +311,11 @@ body {
     top: 50%;
     transform: translateY(-50%);
     width: 50px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    cursor: pointer;
 }
 
 .arrow-left {

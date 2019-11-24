@@ -1,0 +1,68 @@
+{
+    "results": [
+    {
+        "id": "1",
+        "photo" : '<img src="photos/Results/orzel.png">',
+        "opis" : "Orzeł bielik jest największym w Polsce ptakiem drapieżnym. Rozpiętość skrzydeł dochodzi do 2,5 m, a masa ciała do 7 kg. Dożywają 40 lat. Obecnie można spotkać u nas około 600 par bielików, a w delcie Odry znajduje się ich unikatowa w skali Europy kolonia lęgowa. Jesienią duże skupiska młodych bielików można też spotkać w okolicach stawów rybnych."
+    },
+    {
+        "id": "2",
+        "photo" : '<img src="photos/Results/brodzce.png">',
+        "opis" : "Brodźce są nierozłącznie związane ze środowiskiem wodnym – najczęściej brodzą w płytkich akwenach i za pomocą długiego dzioba wyszukują w mule pokarm. Charakteryzują go długie nogi i dziób oraz maskujące, brunatne lub szare upierzenie."
+    },
+    {
+        "id": "3",
+        "photo" : '<img src="photos/Results/kulik.png">',
+        "opis" : "Kulik jest największym przedstawicielem siewkowych w Polsce. Młode już od pierwszych dni są zdolne do samodzielnego poszukiwania pokarmu. Po miesiącu uzyskują też zdolność lotu. Niestety, w wyniku niszczenia środowiska przez człowieka, kulik stał się w Polsce ptakiem bardzo rzadkim i wycofał się z wielu terenów lęgowych (bagna, mokradła, miejsca słabo zarośnięte roślinnością krzewiastą, torfowiska, nadrzeczne łąki, wrzosowiska). Jest to zapewne wynik osuszania terenów podmokłych i mechanizacja pracy przy zbiorze siana."
+    },
+    {
+        "id": "4",
+        "photo" : '<img src="photos/Results/mysikrolik.png">',
+        "opis" : "Mysikróliki to jedne z najmniejszych ptaków Europy (9 cm długości i ok. 5 g wagi). Występują w lasach, preferując bory iglaste. Sprawnie balansują nawet na najcieńszych gałązkach poszukując, drobnych bezkręgowców. Są nieustannie w ruchu. Pomimo maleńkich rozmiarów są zdolne do dalekich wędrówek. Spotykane na wybrzeżu, głównie na Mierzei Wiślanej."
+    },
+    {
+        "id": "5",
+        "photo" : '<img src="photos/Results/pierwiosnek.png">',
+        "opis" : "Pierwiosnek posiada niewielkie, oliwkowo szare ubarwienie, ze znacznie jaśniejszym brzuszkiem. W Polsce spotykany w lasach liściastych, ale też w parkach czy ogrodach."
+"
+    },
+    {
+        "id": "6",
+        "photo" : '<img src="photos/Results/pomurnik.png">',
+        "opis" : "Pomurnik jest związany ściśle ze środowiskiem wysokogórskim. W Polsce występuje bardzo nielicznie, wyłącznie w Tatrach i Pieninach. Całkowitą populację tego gatunku po naszej stronie gór szacuje się na zaledwie 50 par. Obserwować go można nawet zimą, ponieważ prowadzi wtedy osiadły tryb życia. Zazwyczaj przebywa na nagich, stromych ścianach. Jego lot jest bardzo sprawny i szybki, co pozwala mu dynamicznie zmienić kierunek lotu, chwycić owada czy uciec drapieżnikowi, a przy wspinaczce pomaga sobie skrzydłami."
+"
+    },
+    {
+        "id": "7",
+        "photo" : '<img src="photos/Results/pojdzka.png">',
+        "opis" : "Pójdźka to rodzaj sowy o częściowo dziennym trybie życia. Jak na sowę dosyć szybko biega. W poszukiwaniu pokarmu potrafi także grzebać w ziemi. Wycinka starych, głowiastych drzew, zamykanie dostępu do strychów i postępująca chemizacja środowiska mocno uderzyły w populację tych ptaków. Zamieszkuje tereny odkryte – pola, łąki, ugory i uprawy leśne. Gnieździ się też w budynkach, na strychach, w zagłębieniach murów. Odżywia się gryzoniami, płazami, gadami i dżdżownicami."
+    },
+    {
+        "id": "8",
+        "photo" : '<img src="photos/Results/rybitwa.png">',
+        "opis" : "Rybitwy są dość często mylone z mewami, z kolei w locie mogą przypominać jaskółki.  Uwielbiają fruwać dość nisko nad wodą, z głową skierowaną w dół. Czasami tworzą gniazda na wystających z wody wrakach. Licznie gnieżdżą się wzdłuż środkowego brzegu Wisły i Bugu, a także na jeziorami i Morzem Bałtyckim."
+    },
+    {
+        "id": "9",
+        "photo" : '<img src="photos/Results/rycyk.png">',
+        "opis" : "Rycyk osiąga wielkość gołębia domowego. Gniazduje na terenach dużych łąk, w dolinach rzek, na bagniskach, a czasem na silnie wypastowanych pastwiskach. Preferuje zdecydowanie tereny o niskiej roślinności. Rycyki bardzo dobrze pływają i są niezwykle waleczne - potrafią przegonić wronę, mewę czy ptaka drapieżnego."
+"
+    },
+    {
+        "id": "10",
+        "photo" : '<img src="photos/Results/sieweczka.png">',
+        "opis" : "Sieweczka – niewielki, krępo zbudowany ptak zawiązany z otwartymi terenami położonymi w pobliżu rzek lub na wybrzeżach morskich. Warunkiem koniecznym jej egzystencji jest pobliska obecność płytkich zbiorników wodnych. Najmniejszy obok mysikrólika gatunek ptaka w Polsce. Posiada niewielki i bardzo ostro zakończony dzióbek."
+    },
+    {
+        "id": "11",
+        "photo" : '<img src="photos/Results/strzyzyk.png">',
+        "opis" : "Strzyżyk zamieszkuje głównie wilgotne lasy liściaste, a także rzadziej obrzeża borów, zarośla śródpolne i zręby w parkach. W czasie lądowania rozkłada szeroko skrzydła i ogon, co sprawia wrażenie, jakby lądował na spadochronie. W zimie strzyżyki budują specjalne gniazda grupowe, w którym mieści się nawet kilkadziesiąt osobników."
+    },
+    {
+        "id": "12",
+        "photo" : '<img src="photos/Results/zimorodek.png">',
+        "opis" : "Zimorodki wbrew powszechnej opinii nie gnieżdżą się zimą. Są za to bardzo przywiązane do swojego terytorium. Nie zwykły przemieszczać się w grupach. Budują głębokie, nawet metrowej długości nory w skarpach nadrzecznych oraz w obrywach i wyrobiskach żwiru. Zimorodek odżywia się niewielkimi rybami i owadami wodnymi. Na ofiary czatuje na wystających ponad wodę gałęziach, palikach, a bywa, że przysiada na końcówkach wędek. Błyskawicznie rzuca się do wody i nurkuje, starając się zachować pozycję zgodną z kierunkiem padania promieni słońca. Złapaną rybkę ogłusza, uderzając nią o gałąź błyskawicznymi ruchami dzioba. Następnie, rozpoczynając od głowy, połyka ją. W Polsce jest gatunkiem nielicznym, albowiem do połowów wymaga bardzo przezroczystej wody, stąd nie spotkamy go nad zanieczyszczonymi rzekami i stawami."
+    },
+    
+    ]
+}
