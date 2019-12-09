@@ -264,7 +264,7 @@ form {
   background: #0e7d15;
   color: white;
   display: inline-block;
-  margin: 10px auto 0;
+  margin: auto;
   position: absolute;
   bottom: 15px;
   right: 40px;
@@ -279,11 +279,17 @@ form {
   color: white;
 }
 
+.container__buttons__goon:disabled {
+  background: #43b562;
+}
+
 .container__buttons__skip {
   background-color: #eb0909;
   padding: 5px 11px;
   border-radius: 10px;
   color: white;
+  margin-top: 20px;
+  margin-bottom: -10px;
 }
 
 .container--date {
@@ -299,17 +305,25 @@ form {
   text-align: center;
 }
 
+.container__results h1 {
+  font-size: 2rem;
+}
+
 .container__results img {
   width: 90%;
   margin-bottom: 10px;
 }
 
-.container__results h1 {
-  font-size: 2rem;
+.container__results p {
+  font-size: 1.4rem;
 }
 
 .container__buttons {
   display: inline-block;
+}
+
+#pomin {
+  display: none;
 }
 
 .arrow-left,

@@ -19,7 +19,7 @@ body {
     /* animation: example 50s infinite ease-in; */
 }
 
-form{
+form {
     justify-content: center;
     align-content: center;
     width: 350px;
@@ -245,7 +245,7 @@ form{
         background: #0e7d15;
         color: white;
         display: inline-block;
-        margin: 10px auto 0;
+        margin: auto;
         position: absolute;
         bottom: 15px;
         right: 40px;
@@ -259,6 +259,9 @@ form{
             color: white;
         }
 
+        &:disabled {
+            background: #43b562;
+        }
 
     }
 
@@ -267,6 +270,8 @@ form{
         padding: 5px 11px;
         border-radius: 10px;
         color: white;
+        margin-top: 20px;
+        margin-bottom: -10px;
     }
 
 
@@ -286,14 +291,19 @@ form{
         margin-bottom: 30px;
         text-align: center;
 
+        & h1 {
+            font-size: 2rem
+        }
+
         & img {
             width: 90%;
             margin-bottom: 10px;
         }
 
-        & h1 {
-            font-size: 2rem
+        & p {
+            font-size: 1.4rem;
         }
+
     }
 
     &__buttons {
@@ -301,6 +311,7 @@ form{
     }
 
 }
+#pomin{display:none;}
 
 
 

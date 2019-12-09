@@ -47,9 +47,33 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
     </script>
 
+<!--
 
     <script src="bootstrap-datepicker.js"></script>
-    <script src="script.js"></script>
+-->
+    <script src="scrpt.js"></script>
+    <script>
+       const Zimorodek = {
+        id: "12",
+        month: [3,4,5,6,7,8],
+        size: "mały",
+        barwy: ["niebieski", "biały"],
+        beak: "rybny",
+        photo : '<img src="photos/Results/zimorodek.png">',
+        opis : "Zimorodki wbrew powszechnej opinii nie gnieżdżą się zimą. Są za to bardzo przywiązane do swojego terytorium. Nie zwykły przemieszczać się w grupach. Budują głębokie, nawet metrowej długości nory w skarpach nadrzecznych oraz w obrywach i wyrobiskach żwiru. Zimorodek odżywia się niewielkimi rybami i owadami wodnymi. Na ofiary czatuje na wystających ponad wodę gałęziach, palikach, a bywa, że przysiada na końcówkach wędek. Błyskawicznie rzuca się do wody i nurkuje, starając się zachować pozycję zgodną z kierunkiem padania promieni słońca. Złapaną rybkę ogłusza, uderzając nią o gałąź błyskawicznymi ruchami dzioba. Następnie, rozpoczynając od głowy, połyka ją. W Polsce jest gatunkiem nielicznym, albowiem do połowów wymaga bardzo przezroczystej wody, stąd nie spotkamy go nad zanieczyszczonymi rzekami i stawami."
+         }
+       console.log(Zimorodek.barwy);
+   
+                    console.log("odpowiedź to: " + $('input[name=birdssize]:radio:checked').val())
+
+        
+        
+        const coś = Zimorodek.barwy.some(function(el){
+            return el == $("input[name='birds colours']:checkbox").val()
+        });
+        console.log(coś)
+    
+    </script>
 </body>
 
 </html>
