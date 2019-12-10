@@ -1,7 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Alatsi', sans-serif;
   /*            background-color: hsl(180, 91%, 68%);*/
+}
+
+html {
+  height: 100vh;
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 }
 
 .layer {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: url(photos/Main-images/sowa.jpg) no-repeat center;
   background-size: cover;
@@ -22,15 +27,13 @@ body {
 }
 
 form {
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 350px;
-  height: 700px;
-  margin: auto;
-  margin-top: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container {
@@ -40,7 +43,6 @@ form {
   min-width: 350px;
   max-width: 350px;
   padding: 40px 40px 12px;
-  margin: auto;
   border: 1px solid #e31c0e;
   background-color: #66e3be;
   opacity: 0.75;
@@ -48,6 +50,9 @@ form {
   -webkit-transition: all 1s linear;
   transition: all 1s linear;
   position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .container:hover {
@@ -130,6 +135,8 @@ form {
 
 .container__content__ans label {
   width: 100% !important;
+  margin-bottom: 0;
+  padding: 5px 0;
 }
 
 .container__content__ans--size {
@@ -237,9 +244,20 @@ form {
   float: right;
 }
 
-.container__content__optfgroup {
-  display: inline-block;
-  margin: 0 2px;
+.container__content__optlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__content__optgroup {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 6px;
 }
 
 .container__content__data {
@@ -298,11 +316,20 @@ form {
 }
 
 .container__results {
-  font-size: 2rem;
-  padding: 10px;
+  text-align: center;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.container__results::-webkit-scrollbar {
+  display: none;
+}
+
+.container__results li {
+  list-style-type: none;
   background-color: antiquewhite;
   margin-bottom: 30px;
-  text-align: center;
+  padding: 10px;
 }
 
 .container__results h1 {
@@ -315,7 +342,8 @@ form {
 }
 
 .container__results p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
 .container__buttons {
@@ -341,11 +369,11 @@ form {
 }
 
 .arrow-left {
-  left: 5%;
+  left: -70px;
 }
 
 .arrow-right {
-  right: 5%;
+  right: -70px;
 }
 
 .checked {
