@@ -337,7 +337,7 @@
         {
             "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
             "birdSize": "Mały",
-            "birdColour": ["Biały", "Brązowy", "Żółty", "Czarny"],
+            "birdColour": ["Biały", "Brązowy", "Czarny"],
             "birdBeak": "Drapieżne",
             "name": "Pójdźka",
             "photo": "photos/Results/pojdzka.png",
@@ -355,7 +355,7 @@
         {
             "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
             "birdSize": "Mały",
-            "birdColour": ["Biały", "Czerwony", "Żółty", "Szary"],
+            "birdColour": ["Biały", "Czerwony", "Szary"],
             "birdBeak": "Owadożerne",
             "name": "Rudzik",
             "photo": "photos/Results/rudzik.png",
@@ -382,7 +382,7 @@
         {
             "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
             "birdSize": "Mały",
-            "birdColour": ["Biały", "Brązowy", "Żółty", "Czarny"],
+            "birdColour": ["Biały", "Szary", "Czarny"],
             "birdBeak": "Owadożerne",
             "name": "Sieweczka",
             "photo": "photos/Results/sieweczka.png",
@@ -391,9 +391,9 @@
         {
             "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
             "birdSize": "Mały",
-            "birdColour": ["Biały", "Brązowy", "Żółty"],
+            "birdColour": ["Brązowy"],
             "birdBeak": "Ziarnożerne",
-            "name": "Strzyzyk",
+            "name": "Strzyżyk",
             "photo": "photos/Results/strzyzyk.png",
             "description": "Strzyżyk zamieszkuje głównie wilgotne lasy liściaste, a także rzadziej obrzeża borów, zarośla śródpolne i zręby w parkach. W czasie lądowania rozkłada szeroko skrzydła i ogon, co sprawia wrażenie, jakby lądował na spadochronie. W zimie strzyżyki budują specjalne gniazda grupowe, w którym mieści się nawet kilkadziesiąt osobników."
         },

@@ -47,14 +47,14 @@ $(function () {
 
     $(".arrow-right").hide();
     $(".arrow-right").on("click", function () {
-        const $id = $(this).closest(".container").attr("id");
+        let $id = $(this).closest(".container").attr("id");
         $(this).closest(".container").hide(1000);
         $id++;
         $(".container#" + $id).delay(1000).fadeTo(1000, 1);
     });
 
     $(".arrow-left").on("click", function () {
-        const $id = $(this).closest(".container").attr("id");
+        let $id = $(this).closest(".container").attr("id");
         $(this).closest(".container").hide(1000);
         $id--;
         $(".container#" + $id).delay(1000).fadeTo(1000, 1);
@@ -165,6 +165,8 @@ $(function () {
         $("input:checkbox:checked").each(function () {
             arraySelectedColours.push($(this).val());
         });
+
+        ////////////////////////JSON///////////////////////////////////
         const xhr = new XMLHttpRequest();
         xhr.onload = function () {
             if (this.status === 200) {
@@ -176,18 +178,29 @@ $(function () {
                     if (results[i].birdMonth.join(" ").includes($birdMonthValue)) var confirmMonth = 1;
                 }
 
-                arraySelectedColoursJoin = arraySelectedColours.join(" ");
 
 
 
 
 
-                ////////////////////////////////Results with JSON//////////////////////
+
+
+
+                ////////////////////////////////Results//////////////////////
                 for (let i = 0; i < results.length; i++) {
+                    console.log(arraySelectedColours);
+                    console.log(results[i].birdColour);
 
+
+                    const confirmColours = arraySelectedColours.every(function (val) {
+                        return results[i].birdColour.indexOf(val) >= 0
+                    });
+
+
+                    console.log(confirmColours);
                     if ((typeof confirmMonth !== undefined) &&
-                        ($birdSizeValue == results[i].birdSize) &&
-                        (typeof confirmColours !== undefined) &&
+                        ($birdSizeValue === results[i].birdSize) &&
+                        (confirmColours === true) &&
                         (($birdBeakValue === results[i].birdBeak) || ($birdBeakValue === "Pomiń"))) {
 
                         output += `<li>                
@@ -197,7 +210,7 @@ $(function () {
                 </li>`;
                     }
                 }
-                $(".container__selected").html(`Wybrano: <br /> <br /> Data obserwacji: ${date}<br /> Rozmiar ptaka: ${$birdSizeValue} <br /> Barwy upierzenia: ${arraySelectedColoursJoin} <br /> Typ dzioba: ${$birdBeakValue} <br /> <span class="container__selected__otoWyniki">Oto wyniki:</span> <br />`)
+                $(".container__selected").html(`Wybrano: <br /> <br /> Data obserwacji: ${date}<br /> Rozmiar ptaka: ${$birdSizeValue} <br /> Barwy upierzenia: ${arraySelectedColours} <br /> Typ dzioba: ${$birdBeakValue} <br /> <span class="container__selected__otoWyniki">Oto wyniki:</span> <br />`)
                 $("#results").html(output);
                 if (output.length == 0) $("#results").html(`<h1>Nic nie znaleziono.</h1>`);
             }
