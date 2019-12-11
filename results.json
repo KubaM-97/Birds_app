@@ -1,68 +1,482 @@
 {
     "results": [
-    {
-        "id": "1",
-        "photo" : '<img src="photos/Results/orzel.png">',
-        "opis" : "Orzeł bielik jest największym w Polsce ptakiem drapieżnym. Rozpiętość skrzydeł dochodzi do 2,5 m, a masa ciała do 7 kg. Dożywają 40 lat. Obecnie można spotkać u nas około 600 par bielików, a w delcie Odry znajduje się ich unikatowa w skali Europy kolonia lęgowa. Jesienią duże skupiska młodych bielików można też spotkać w okolicach stawów rybnych."
-    },
-    {
-        "id": "2",
-        "photo" : '<img src="photos/Results/brodzce.png">',
-        "opis" : "Brodźce są nierozłącznie związane ze środowiskiem wodnym – najczęściej brodzą w płytkich akwenach i za pomocą długiego dzioba wyszukują w mule pokarm. Charakteryzują go długie nogi i dziób oraz maskujące, brunatne lub szare upierzenie."
-    },
-    {
-        "id": "3",
-        "photo" : '<img src="photos/Results/kulik.png">',
-        "opis" : "Kulik jest największym przedstawicielem siewkowych w Polsce. Młode już od pierwszych dni są zdolne do samodzielnego poszukiwania pokarmu. Po miesiącu uzyskują też zdolność lotu. Niestety, w wyniku niszczenia środowiska przez człowieka, kulik stał się w Polsce ptakiem bardzo rzadkim i wycofał się z wielu terenów lęgowych (bagna, mokradła, miejsca słabo zarośnięte roślinnością krzewiastą, torfowiska, nadrzeczne łąki, wrzosowiska). Jest to zapewne wynik osuszania terenów podmokłych i mechanizacja pracy przy zbiorze siana."
-    },
-    {
-        "id": "4",
-        "photo" : '<img src="photos/Results/mysikrolik.png">',
-        "opis" : "Mysikróliki to jedne z najmniejszych ptaków Europy (9 cm długości i ok. 5 g wagi). Występują w lasach, preferując bory iglaste. Sprawnie balansują nawet na najcieńszych gałązkach poszukując, drobnych bezkręgowców. Są nieustannie w ruchu. Pomimo maleńkich rozmiarów są zdolne do dalekich wędrówek. Spotykane na wybrzeżu, głównie na Mierzei Wiślanej."
-    },
-    {
-        "id": "5",
-        "photo" : '<img src="photos/Results/pierwiosnek.png">',
-        "opis" : "Pierwiosnek posiada niewielkie, oliwkowo szare ubarwienie, ze znacznie jaśniejszym brzuszkiem. W Polsce spotykany w lasach liściastych, ale też w parkach czy ogrodach."
-"
-    },
-    {
-        "id": "6",
-        "photo" : '<img src="photos/Results/pomurnik.png">',
-        "opis" : "Pomurnik jest związany ściśle ze środowiskiem wysokogórskim. W Polsce występuje bardzo nielicznie, wyłącznie w Tatrach i Pieninach. Całkowitą populację tego gatunku po naszej stronie gór szacuje się na zaledwie 50 par. Obserwować go można nawet zimą, ponieważ prowadzi wtedy osiadły tryb życia. Zazwyczaj przebywa na nagich, stromych ścianach. Jego lot jest bardzo sprawny i szybki, co pozwala mu dynamicznie zmienić kierunek lotu, chwycić owada czy uciec drapieżnikowi, a przy wspinaczce pomaga sobie skrzydłami."
-"
-    },
-    {
-        "id": "7",
-        "photo" : '<img src="photos/Results/pojdzka.png">',
-        "opis" : "Pójdźka to rodzaj sowy o częściowo dziennym trybie życia. Jak na sowę dosyć szybko biega. W poszukiwaniu pokarmu potrafi także grzebać w ziemi. Wycinka starych, głowiastych drzew, zamykanie dostępu do strychów i postępująca chemizacja środowiska mocno uderzyły w populację tych ptaków. Zamieszkuje tereny odkryte – pola, łąki, ugory i uprawy leśne. Gnieździ się też w budynkach, na strychach, w zagłębieniach murów. Odżywia się gryzoniami, płazami, gadami i dżdżownicami."
-    },
-    {
-        "id": "8",
-        "photo" : '<img src="photos/Results/rybitwa.png">',
-        "opis" : "Rybitwy są dość często mylone z mewami, z kolei w locie mogą przypominać jaskółki.  Uwielbiają fruwać dość nisko nad wodą, z głową skierowaną w dół. Czasami tworzą gniazda na wystających z wody wrakach. Licznie gnieżdżą się wzdłuż środkowego brzegu Wisły i Bugu, a także na jeziorami i Morzem Bałtyckim."
-    },
-    {
-        "id": "9",
-        "photo" : '<img src="photos/Results/rycyk.png">',
-        "opis" : "Rycyk osiąga wielkość gołębia domowego. Gniazduje na terenach dużych łąk, w dolinach rzek, na bagniskach, a czasem na silnie wypastowanych pastwiskach. Preferuje zdecydowanie tereny o niskiej roślinności. Rycyki bardzo dobrze pływają i są niezwykle waleczne - potrafią przegonić wronę, mewę czy ptaka drapieżnego."
-"
-    },
-    {
-        "id": "10",
-        "photo" : '<img src="photos/Results/sieweczka.png">',
-        "opis" : "Sieweczka – niewielki, krępo zbudowany ptak zawiązany z otwartymi terenami położonymi w pobliżu rzek lub na wybrzeżach morskich. Warunkiem koniecznym jej egzystencji jest pobliska obecność płytkich zbiorników wodnych. Najmniejszy obok mysikrólika gatunek ptaka w Polsce. Posiada niewielki i bardzo ostro zakończony dzióbek."
-    },
-    {
-        "id": "11",
-        "photo" : '<img src="photos/Results/strzyzyk.png">',
-        "opis" : "Strzyżyk zamieszkuje głównie wilgotne lasy liściaste, a także rzadziej obrzeża borów, zarośla śródpolne i zręby w parkach. W czasie lądowania rozkłada szeroko skrzydła i ogon, co sprawia wrażenie, jakby lądował na spadochronie. W zimie strzyżyki budują specjalne gniazda grupowe, w którym mieści się nawet kilkadziesiąt osobników."
-    },
-    {
-        "id": "12",
-        "photo" : '<img src="photos/Results/zimorodek.png">',
-        "opis" : "Zimorodki wbrew powszechnej opinii nie gnieżdżą się zimą. Są za to bardzo przywiązane do swojego terytorium. Nie zwykły przemieszczać się w grupach. Budują głębokie, nawet metrowej długości nory w skarpach nadrzecznych oraz w obrywach i wyrobiskach żwiru. Zimorodek odżywia się niewielkimi rybami i owadami wodnymi. Na ofiary czatuje na wystających ponad wodę gałęziach, palikach, a bywa, że przysiada na końcówkach wędek. Błyskawicznie rzuca się do wody i nurkuje, starając się zachować pozycję zgodną z kierunkiem padania promieni słońca. Złapaną rybkę ogłusza, uderzając nią o gałąź błyskawicznymi ruchami dzioba. Następnie, rozpoczynając od głowy, połyka ją. W Polsce jest gatunkiem nielicznym, albowiem do połowów wymaga bardzo przezroczystej wody, stąd nie spotkamy go nad zanieczyszczonymi rzekami i stawami."
-    },
-    
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Żółty", "Czarny"],
+            "birdBeak": "Drapieżne",
+            "name": "Orzeł bielik",
+            "photo": "photos/Results/orzelBielik.png",
+            "description": "Orzeł bielik jest największym w Polsce ptakiem drapieżnym. Rozpiętość skrzydeł dochodzi do 2,5 m, a masa ciała do 7 kg. Dożywają 40 lat. Obecnie można spotkać u nas około 600 par bielików, a w delcie Odry znajduje się ich unikatowa w skali Europy kolonia lęgowa. Jesienią duże skupiska młodych bielików można też spotkać w okolicach stawów rybnych."
+        },
+        {
+            "birdMonth": ["03", "04", "05", "06", "07", "08", "09"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Szary", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Białorzytka",
+            "photo": "photos/Results/bialorzytka.png",
+            "description": "Białorzytka – rzadko widywany w Polsce ptak terenów otwartych: suchych łąk, kamienistych ugorów, żwirowni, poręb, nasypów kolejowych i pobrzeży itp. Zamieszkuje także góry i wyżyny do 2000 mnpm. Odlatuje we wrześniu do Afryki, a powraca w marcu."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duzy",
+            "birdColour": ["Brązowy", "Szary"],
+            "birdBeak": "Rybożerne",
+            "name": "Błotniak",
+            "photo": "photos/Results/blotniak.png",
+            "description": "Błotniak – szponiasty ptak drapieżny. Zamieszkuje pola, łąki i obrzeża zbiorników wodnych. Gniazduje na ziemi wśród wysokiej roślinności np. w trzcinowisku. Charakteryzuje się długimi wąskimi skrzydłami i równie długim ogonem. Samce są ze reguły popielate z czarnymi końcami skrzydeł, natomiast w upierzeniu samic dominuje brąz. Poluje na drobne zwierzęta: gryzonie, ptaki, płazy i owady."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Żółty", "Szary", "Czarny"],
+            "birdBeak": "Rybożerne",
+            "name": "Brodźce",
+            "photo": "photos/Results/brodzce.png",
+            "description": "Brodźce są nierozłącznie związane ze środowiskiem wodnym – najczęściej brodzą w płytkich akwenach i za pomocą długiego dzioba wyszukują w mule pokarm. Charakteryzują go długie nogi i dziób oraz maskujące, brunatne lub szare upierzenie."
+        },
+        {
+            "birdMonth": ["02", "03", "04", "05", "06", "07", "08", "09", "10"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Czajka",
+            "photo": "photos/Results/czajka.png",
+            "description": "Głowę czajki zdobi wysoki, wygięty ku górze i ostro zakończony, czarny czubek. W locie widać duże, poszerzające się ku końcowi skrzydła. Zasiedla wilgotne łąki i pastwiska. W jego menu dominują bezkręgowce. Pojawia się w lutym, będąc jednym z pierwszych zwiastunów wiosny, a odlatuje w październiku."
+        },
+        {
+            "birdMonth": ["04", "05", "06", "07", "08", "09", "10", "11"],
+            "birdSize": "Duży",
+            "birdColour": ["Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Derkacz",
+            "photo": "photos/Results/derkacz.png",
+            "description": "Derkacz zamieszkuje łąki, pastwiska, podeschnięte moczary, a nawet pola uprawne. Dostrzec go jest bardzo ciężko, gdyż nawet przy najmniejszym zaniepokojeniu szybko oddala się pieszo. Wzbija się w lot tylko w ostateczności. Przylatuje w kwietniu, a do Afryki odlatuje pod koniec października."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Drop",
+            "photo": "photos/Results/drop.png",
+            "description": "Gratulacje. Spotkałeś/aś jednego z najrzadszych ptaków w Polsce. Często określa się jego istnienie w Polsce jako teoretyczne. W 1936r naliczono prawie 600 ptaków,  w 1964 było ich ledwo ponad 300, w 1975 – 123, a w 1982 już tylko 5. Bardzo rzadko zdarzają się jednak osobniki przylatujące z Niemiec (tak było chociażby w 2003r). Jest jednym z największych i najcięższych ptaków latających na świecie, a mimo to jego lot jest stosunkowo lekki i wytrwały. Z reguły osiada na europejskich polach i łąkach. Są przy tym bardzo płochliwe. Samce dropa ważą nawet 18kg."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy"],
+            "birdBeak": "Owadożerne",
+            "name": "Drozd",
+            "photo": "photos/Results/drozd.png",
+            "description": " Drozd gniazduje w lasach, ogrodach i parkach. Jest częściowo gatunkiem wędrownym. Wraz z wieloma ptakami spędza zimę w południowej Europie i Afryce Północnej. Ptak ten buduje w krzakach lub na drzewach zgrabne, podklejone błotem gniazdo w kształcie filiżanki. Składa w nim cztery lub pięć błękitnych jaj. Ma zwyczaj używania ulubionego kamienia jako „kowadła”, na którym rozbija ślimaki. Drozd śpiewak zwykle gniazduje w lesie o gęstym podszycie, w pobliżu otwartych przestrzeni, od świerkowych monokultur po bogate w różne gatunki lasy łęgowe. Z powodu masy gatunek wykonuje jeden z najgłośniejszych ptasich śpiewów."
+        },
+        {
+            "birdMonth": ["03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Czerwony", "Szary", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Dzierzba",
+            "photo": "photos/Results/dzierzba.png",
+            "description": "Dzierzby mają pewną cechę, która przybliża je do ptaków drapieżnych. Ich dziób jest na końcu zagięty ku dołowi, a w połowie długości wyposażony w wystający ząbek, podobnie jak dziób sokoła. Polują na duże owady, płazy, gady i drobne ssaki. Zdobycz, której nie są w stanie od razu zjeść, zabijają i nadziewają na kolce tarniny, głogu czy robinii, tworząc swoiste spiżarnie. Na zimę odlatują do tropikalnej Afryki."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Czerwony", "Czarny", "Zielony"],
+            "birdBeak": "Owadożerne",
+            "name": "Dzięcioł zielony",
+            "photo": "photos/Results/dzieciolZielony.png",
+            "description": "Dzięcioł zielony jest zdecydowanie najbardziej kolorowym dzięciołem w Polsce. Możemy go spotkać w mniej gęstych lasach na terenie całego kraju, chociaż zamieszkuje je dość nielicznie. Bacznie przyglądajmy się wierzbom i topolom, ponieważ to w nich dzięcioł zielony najchętniej kuje. Samca od samicy możemy rozpoznać po charakterystycznym “wąsie”. Ten pasek po obu stronach dzioba u samicy jest całkiem czarny, natomiast samiec ma jeszcze czerwoną, podłużną plamkę wewnątrz czarnej otoczki. Jeśli, spacerując po lesie, zauważymy dziurę w mrowisku, wcale nie musiało być ono zniszczone przez człowieka. Bardzo prawdopodobne, że zrobił to właśnie dzięcioł zielony, ponieważ mrówki stanowią podstawę jego diety. Upodobał sobie zwłaszcza mrówki darniowe, które budują mrowiska pod ziemią lub w spróchniałych, zwalonych konarach drzew."
+        },
+        {
+            "birdMonth": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Żółty", "Zielony"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Dzwoniec",
+            "photo": "photos/Results/dzwoniec.png",
+            "description": "W Polsce dzwońce są raczej średnio liczne, rozpowszechnione równomiernie w całym kraju. Wielkości wróbla. Upierzenie oliwkowozielone na wierzchu ciała, a zielonożółte na spodzie. Występuje na obrzeżach borów i lasów mieszanych, w parkach, alejach, śródpolnych zadrzewieniach. Spożywa przeważnie nasiona chwastów i świeże pędy roślin, głównie oleistych, a także części owoców. Młode z pierwszego lęgu zjadają nasiona gwiazdnicy i mniszka. Zimą dzwońce zjadają owoce dzikiej róży, śnieguliczki, irgi, jarzębiny oraz zasuszone owoce jeżyn. Na terenie Polski gatunek ten jest objęty ścisłą ochroną gatunkową."
+        },
+        {
+            "birdMonth": ["04", "05", "06", "07", "08", "09", "10", "11"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Brązowy"],
+            "birdBeak": "Drapieżne",
+            "name": "Gadożer",
+            "photo": "photos/Results/gadozer.png",
+            "description": "Gadożer, znany też jako krótkoszpon, jest ptakiem drapieżnym o rozpiętości skrzydeł dochodzącej do 2 m i masie ciała do 3 kg. Zimę spędza  w Afryce, powraca do nas dopiero w kwietniu lub maju Zamieszkuje rozległe tereny odkryte z luźno rozmieszczonymi dużymi drzewami lub ich kępami, co ułatwia mu polowanie. W diecie występują zaskrońce, żmije, jaszczurki oraz małe płazy, ptaki i drobne ssaki. Odlatuje we wrześniu. Występuje tylko na wschodzie Polski, gdzie gniazduje zaledwie 10-15par :("
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Brązowy", "Czarny", "Zielony"],
+            "birdBeak": "Owadożerne",
+            "name": "Gągol",
+            "photo": "photos/Results/gagol.png",
+            "description": "Gągoł to przedstawiciel kaczkowatych. Jego lot jest bardzo szybki. W Polsce występuje od końca XIX wieku, gdzie osiedlił się na Mazurach, a potem skolonizował całą Polskę."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Białe", "Szare", "Czarne", "Brązowe"],
+            "birdBeak": "Owadożerne",
+            "name": "Grążyce",
+            "photo": "photos/Results/grazyce.png",
+            "description": "Grążyce to stosunkowo małe kaczki. Latają, uderzając bardzo energicznie swoimi krótkimi skrzydełkami. Wytrwale wydobywają pokarm spod powierzchni wody. Obecnie ich liczebność niestety stale spada i dziś są one uważane za najbardziej zagrożony wyginięciem gatunek kaczki."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Drapieżne",
+            "name": "Jastrząb",
+            "photo": "photos/Results/jastrzab.png",
+            "description": "Jastrząb prowadzi dość skryty tryb życia, stąd jest mało znany. Od 1975r przysługuje mu ścisła ochrona. Pełni jednak ważną rolę selekcjonera. Chwyta przede wszystkim zwierzęta chore, osłabione. Poluje głównie na ptaki (kradnie gołębie), ale również na wiewiórki i króliki. W Polsce gnieździ się około 5000 par."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Czerwony", "Brązowy", "Żółty", "Szary", "Czarny"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Jemiołuszka",
+            "photo": "photos/Results/jemioluszka.png",
+            "description": "Jemiołuszka jest jednym z nielicznych ptaków wybierające Polskę na miejsce zimowania. Na co dzień mieszka na północy Skandynawii i całej Syberii. Uwielbia jarzębinę, a także białe jagody jemioły i nasiona innych roślin. Zaskakująco mało płochliwa. Żeruje nieraz na poboczu ruchliwych ulic, gdzie niestety wiele z nich ginie w wyniku kolizji z pojazdami, do których przecież nie są przyzwyczajone na swoich rodzimych terytoriach."
+        },
+        {
+            "birdMonth": ["05", "06", "07", "08"],
+            "birdSize": "Mały",
+            "birdColour": ["Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Jerzyk",
+            "photo": "photos/Results/jerzyk.png",
+            "description": "Jerzyk występuje powszechnie i licznie w naszych miastach. Jest jednym z najpóźniej przylatujących gatunków ptaków. Melduje się w połowie maja, a odlatuje już w sierpniu po odbyciu lęgów. Mylony z jaskółką. Znakomicie przystosowany do życia w powietrzu. Nigdy z własnej woli nie siada na ziemi. Potrafi także spać w locie. Jest jednym z najszybciej latających ptaków. Pokarm (owady) zdobywa w locie. Gniazduje na strychach, w szczelinach pomiędzy dachówkami, otworach wentylacyjnych, pęknięć w tynku, rzadziej w budkach lęgowych i dziuplach. W razie niekorzystnych warunków pogodowych jerzyki zapadają w stan odrętwienia, znacznie obniżając aktywność fizjologiczną swego organizmu. Mogą dzięki temu przetrwać bez pokarmu nawet kilkanaście dni. Jeden z moich ulubionych gatunków."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Brązowy", "Szary", "Czarny"],
+            "birdBeak": "Drapieżne",
+            "name": "Kania",
+            "photo": "photos/Results/kania.png",
+            "description": "Kanie często możemy spotkać żeglujące w powietrzu nad wodami. W lotach patrolowych wypatrują zdobyczy, którą mogą być ryby, płazy, ssaki i inne ptaki. Chętnie spożywają padlinę, oczyszczając w ten sposób środowisko. Spędzają zimę w zachodniej Europie, w Hiszpanii, we Francji i Włoszech, a wracają do nas już na przełomie lutego i marca. Jednak można je wyjątkowo spotkać podczas łagodnych zim w zachodniej Polsce. U nas oba gatunki są bardzo rzadkie i podlegają ścisłej ochronie, a wokół ich gniazd są wyznaczane specjalne strefy ochronne o promieniu 100 m."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Czerwony", "Szary", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "birdBeak": "Ziarnożerne",
+            "name": "Kowalik",
+            "photo": "photos/Results/kowalik.png",
+            "description": "Wszędobylskiego kowalika znajdziemy tam, gdzie rosną drzewa: bory sosnowe, lasy mieszane, parki, ogrody oraz nasadzenia wzdłuż miejskich ulic. Kowalik sprawnie porusza się po korze drzew w dolnym kierunku, często głową w dół. Wydobywa ze szczelin owady i ich larwy, a także wcina mrówki Zimą współpracuje z sikorami i dzięciołami."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Żółty", "Czarny"],
+            "birdBeak": "Rybożerne",
+            "name": "Kormoran",
+            "photo": "photos/Results/kormoran.png",
+            "description": "Kormoran zamieszkuje okolice dużych jezior i rzek oraz wybrzeża morskiego i jego zalewów. Najczęściej możemy zaobserwować go, gdy siedzi na wynurzonych z wody gałęziach, palach mirtowych czy falochronach. Żywi się rybami, doskonale nurkuje. Końcówka jego dzioba wyposażona jest w zagięty haczykowaty paznokieć, a piłkowane brzegi nie pozwalają nawet tak śliskim rybom, jak węgorz, na ucieczkę."
+        },
+        {
+            "birdMonth": ["04", "05", "06", "07", "08", "09", "10"],
+            "birdSize": "Mały",
+            "birdColour": ["Niebieski", "Czerwony", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Kraska",
+            "photo": "photos/Results/kraska.png",
+            "description": "Kraska - piękny, choć znacznie częstszy na południu Europy niż u nas, bardziej związany z tropikami. Zjadają zarówno dużo owadów, głównie prostoskrzydłe (pasikoniki) i chrząszcze, rzadziej dżdżownice i pająki, drobne kręgowce – gady, płazy (żaby) i ssaki (norniki). Pokarm zdobywa na ziemi. Poluje z zasadzki – zlatuje z miejsc obserwacyjnych prosto na ofiarę, która jest na ziemi. Do Polski powraca stosunkowo późno, bo dopiero pod koniec kwietnia. Kraśka jest typowym dziuplakiem. Preferuje obszerne siedziby, czasami położone dość nisko nad ziemią. Wyjątkowo gnieździ się także w norach."
+        },
+        {
+            "birdMonth": ["04", "05", "06", "07", "08", "09"],
+            "birdSize": "Mały",
+            "birdColour": ["Brązowy", "Żółty"],
+            "birdBeak": "Owadożerne",
+            "name": "Krętogłów",
+            "photo": "photos/Results/kretoglow.png",
+            "description": "Krętogłów pochodzi rodziny dzięciołowatych. Także ma bardzo długi język służący do wydobywania owadów z wąskich korytarzy. Jego ubarwienie doskonale maskuje go na tle ściółki leśnej czy na korze drzew. W sytuacji zagrożenia wykonuje dziwne skręty szyją i syczy jak wąż. Doprowadzony do ostateczności udaje martwego, zamykając oczy i wysuwając bezwładnie język. Wystarczy jednak, że napastnik rozluźni nieco uchwyt, by krętogłów nagle odżył i błyskawicznie wyrwał się z niewoli. Wcina mrówki. Jest gatunkiem wędrownym. We wrześniu odlatuje do Afryki lub Morza Śródziemnego, a powraca do nas w kwietniu i maju."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Szary"],
+            "birdBeak": "Owadożerne",
+            "name": "Kukułka",
+            "photo": "photos/Results/kukulka.png",
+            "description": "Kukułka to jeden z najbardziej niezwykłych po względem biologii rozrodu gatunków ptaków. Chodzi oczywiście o podrzucaniu potomstwa innym gatunkom. Gdy właściciel gniazda na chwilę się oddali, błyskawicznie przysiada się i znosi jajo. Często pomaga jej w tym samiec odciągając od gniazda wysiadującą parę. Okres inkubacji jest bardzo krótki, i zwykle wynosi 11-13 dni. Pisklę kukułki wykluwa się więc z reguły zwykle wcześniej od piskląt gospodarza. Natychmiast po narodzinach przystępuje do likwidacji swojego przybranego rodzeństwa, wyrzucając z gniazda zarówno jaja, jak i wyklute pisklęta. Odlatuje w sierpniu, a powraca w połowie kwietnia. Sama nie buduje gniazd."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Żółty", "Szary"],
+            "birdBeak": "Owadożerne",
+            "name": "Kulik",
+            "photo": "photos/Results/kulik.png",
+            "description": "Kulik jest największym przedstawicielem siewkowych w Polsce. Młode już od pierwszych dni są zdolne do samodzielnego poszukiwania pokarmu. Po miesiącu uzyskują też zdolność lotu. Niestety, w wyniku niszczenia środowiska przez człowieka, kulik stał się w Polsce ptakiem bardzo rzadkim i wycofał się z wielu terenów lęgowych (bagna, mokradła, miejsca słabo zarośnięte roślinnością krzewiastą, torfowiska, nadrzeczne łąki, wrzosowiska). Jest to zapewne wynik osuszania terenów podmokłych i mechanizacja pracy przy zbiorze siana."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Brązowy, Żółty", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Kulon",
+            "photo": "photos/Results/kulon.png",
+            "description": "Kulon, w przeciwieństwie do przedstawicieli innych siewkowatych, preferuje suche środowiska – wrzosowiska, pastwiska, tereny piaszczyste i żwirowe. Ma tendencje do zastygania w bezruchu. Wyraźnie widać tyko wielkie, jakby gadzie, nieruchome oczy. Odżywia się ślimakami, owadami i pierścienicami, gadami, myszami i pisklętami innych gatunków ptaków."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Czerwony", "Czarny"],
+            "birdBeak": "Rybożerne",
+            "name": "Łyska",
+            "photo": "photos/Results/lyska.png",
+            "description": "Łyska – często mylone z dzikimi kaczkami. Łyski żyją na każdym zbiorniku wodnym. Omijają jedynie bystre rzeki i potoki. Zimują gromadnie na większych jeziorach, rzekach i wzdłuż wybrzeża Bałtyku. Żywią się zarówno pokarmem roślinnym jak i zwierzęcym. Dobrze nurkują, najpierw charakterystycznie podskakując na powierzchnią wody. Po nią pozostają dość krótko, by potem wyskoczyć nad jej powierzchnię jak korek. Lubi niewielkie zbiorniki wodne, a zwłaszcza w trzcinowiskach."
+        },
+        {
+            "birdMonth": ["04", "05", "06", "07", "08"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy", "Szary"],
+            "birdBeak": "Owadożerne",
+            "name": "Muchołówka",
+            "photo": "photos/Results/mucholowka.png",
+            "description": "Muchołówka czatuje na przelatujące owady, a następnie krótkim wypadem chwytają zdobycz. Gniazduje w dużych dziuplach powstających po odłamaniu gałęzi. Występuje na obrzeżach lasów, w parkach i ogrodach, na cmentarzach, w krajobrazie rolniczym, w okolicach zabudowań. Jej śpiew składa się z syczących tonów. Odlatuje w sierpniu, a powraca w kwietniu na wiosnę lub maju."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Żółty", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Mysikrólik",
+            "photo": "photos/Results/mysikrolik.png",
+            "description": "Mysikróliki to jedne z najmniejszych ptaków Europy (9 cm długości i ok. 5 g wagi). Występują w lasach, preferując bory iglaste. Sprawnie balansują nawet na najcieńszych gałązkach poszukując, drobnych bezkręgowców. Są nieustannie w ruchu. Pomimo maleńkich rozmiarów są zdolne do dalekich wędrówek. Spotykane na wybrzeżu, głównie na Mierzei Wiślanej."
+        },
+        {
+            "birdMonth": ["03", "04", "05", "06", "07", "08", "09", "10"],
+            "birdSize": "Duży",
+            "birdColour": ["Brązowy", "Czarny"],
+            "birdBeak": "Drapieżne",
+            "name": "Orlik",
+            "photo": "photos/Results/orlik.png",
+            "description": "Do orlików właściwych zaliczamy 2 gatunki rodzimych orlików. Orlik krzykliwy występuje na wschodzie kraju oraz Pomorzu i liczy około 2000 par, co stanowi około 20% europejskiej populacji. Z kolei orlik grubodzioby (na zdjęciu) jest gatunkiem skrajnie rzadkim i liczy około 20 par. 15-20 masa 2,5kg i rozpiętość skrzydeł 1,8m. Oba gatunki zimują w Afryce i przylatują do nas pod koniec marca. U ptaków tych występuje zjawisko kainizmu. Samice obu gatunków składają po 2 jaja. Zaraz po wykluciu młodsze pisklę „Abel\" jest intensywnie prześladowane przez starszego „Kaina\", który nęka „Abla\", odgania od pokarmu i dziobie. Rodzice nie ingeruje w konflikt, karmiąc aktywniejsze pisklę. Po kilku dniach młodsze ginie i zostaje zjedzone"
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Czerwony", "Brązowy", "Czarny"],
+            "birdBeak": "Rybożerne",
+            "name": "Ohar",
+            "photo": "photos/Results/ohar.png",
+            "description": "Ohar – należy do grupy tzw. Półgęski. Wielkością przypomina kaczkę krzyżówką, ale ma przy tym znacznie dłuższe nogi i pstrokate upierzenie. Ohary odżywiają się zarówno pokarmem roślinnym, jak i zwierzęcym. Ptaki zamieszkują wybrzeże Bałtyku, nadmorskie jeziora i okolice większych rzek. Składają do 12 jaj, które wysiaduje wyłącznie samica"
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy", "Żółty", "Zielony"],
+            "birdBeak": "Owadożerne",
+            "name": "Pierwiosnek",
+            "photo": "photos/Results/pierwiosnek.png",
+            "description": "Pierwiosnek posiada niewielkie, oliwkowo szare ubarwienie, ze znacznie jaśniejszym brzuszkiem. W Polsce spotykany w lasach liściastych, ale też w parkach czy ogrodach."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Czerwony", "Szary", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Pleszka",
+            "photo": "photos/Results/pleszka.png",
+            "description": "Pleszka dla niego charakterystyczna dla nich  jest wyprostowana postawa ciała i częste „dyganie ogonem w regularnych odstępach. Zamieszkuje obrzeża lasów z bujnym podszytem, parki i większe ogrody. Składa 6-9 niebieskich jaj w dziuplach i skrzynkach lęgowych."
+        },
+        {
+            "birdMonth": ["03", "04", "05", "06", "07", "08", "09", "10"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Szary", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Pliszka siwa",
+            "photo": "photos/Results/pliszkaSiwa.png",
+            "description": "W Polsce pliszkę można spotkać w całym kraju, a w górach występuje do najwyżej położonych schronisk turystycznych. Dzięki nim górna granica zasięgu sięga 1500 mnpm. Najliczniejsze populacje żyją na Mazurach. Największe zagęszczenie notowano w dolinach rzecznych, w mniejszych miejscowościach i na skrajach większych. Nie unika też centrów dużych miast. Z zimowisk znajdujących się w strefie Morza Śródziemnego i na terenach leżących bardziej na południe po Afrykę Równikową wraca w lutym i marcu. Bardzo charakterystyczne zachowanie – biega po ziemi w poszukiwaniu owadów, często na drogach, nieustannie przy spacerowaniu lub staniu kiwając ogonem w dół i w górę. Również w trakcie polowania kiwa ogonem. Lata specyficznym, falowym lotem. Kilka uderzeń skrzydeł podnosi ptaka w górę, po czym po złożeniu skrzydeł dochodzi do ześlizgiwania się z linii lotu w dół. Są mało płochliwe i chętnie przebywają w towarzystwie człowieka, choć zachowują ostrożność. Zwykle przesiaduje na ziemi, nie boi się przebywać na zupełnie odsłoniętych miejscach. Często widuje się ją wzdłuż szlaków komunikacyjnych takich jak drogi tory kolejowe, na terenach otwartych i półotwartych, podwórkach. Konsumuje drobne owady, takie jak komary, muchy, chrząszcze, małe motyle. Często zdarza jej się biegać za pługiem i zbierać larwy i pędraki. Na terenie Polski gatunek ten jest objęty ścisłą ochroną gatunkową."
+        },
+        {
+            "birdMonth": ["03", "04", "05", "06", "07", "08", "09", "10"],
+            "birdSize": "Mały",
+            "birdColour": ["Żółty", "Szary"],
+            "birdBeak": "Owadożerne",
+            "name": "Pliszka żółta",
+            "photo": "photos/Results/pliszkaZolta.png",
+            "description": "Pliszka żółta lubi otwarte, nizinne przestrzenie i na takich obszarach można spotkać ją w niemal całej Polsce już od kwietnia aż do nawet października. Wędrując w okresie wiosenno-letnim po łąkach należy uważnie patrzeć pod nogi, ponieważ pliszka żółta buduje gniazda na ziemi, doskonale ukryte pomiędzy wysokimi roślinami. Pliszka żywi się głównie owadami we wszystkich stadiach rozwoju, pająkami i niewielkimi mięczakami. Po odchowaniu piskląt pliszka żółta z chęcią towarzyszy zwierzętom gospodarskim na pastwiskach, polując na krążące wokół bydła muchy i wypłaszane z trawy inne owady."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy", "Szary", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Pluszcz",
+            "photo": "photos/Results/pluszcz.png",
+            "description": "Pluszcz – jako jeden z nielicznych ptaków śpiewających zamieszkuje środowiska szybko płynących potoków górskich. Można go spotkać głównie w Karpatach. Zimą przemieszcza się w niższe położenia górskie, nad większe rzeki. Odżywia się larwami owadów wodnych i owadami lądowymi. Pomimo braku błon pławnych między palcami sprawnie nurkuje. Pod wodą chodzi, przytrzymując się dna ostrymi pazurkami i pomagając sobie rozłożonymi skrzydłami. Gniazda wije blisko wód, najczęściej pod osłoną wodospadów, wlatując do nich przebija się wtedy przez spadające kaskady wody. Albo zakłada gniazda pod mostami."
+        },
+        {
+            "birdMonth": ["04", "05", "06", "07", "08"],
+            "birdSize": "Mały",
+            "birdColour": ["Brązowy", "Żółty", "Szary"],
+            "birdBeak": "Owadożerne",
+            "name": "Pokrzewka",
+            "photo": "photos/Results/pokrzewka.png",
+            "description": "Pokrzewki to grupa ptaków wielkości wróbla. Związane z gęstym podszytem lub zaroślami złożonymi z krzewów. Zjadają bezkręgowce, a także niewielkie owoce. Odlatują w sierpniu, a z afrykańskich zimowisk wracają w kwietniu"
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Czerwony", "Szary", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Pomurnik",
+            "photo": "photos/Results/pomurnik.png",
+            "description": "Pomurnik jest związany ściśle ze środowiskiem wysokogórskim. W Polsce występuje bardzo nielicznie, wyłącznie w Tatrach i Pieninach. Całkowitą populację tego gatunku po naszej stronie gór szacuje się na zaledwie 50 par. Obserwować go można nawet zimą, ponieważ prowadzi wtedy osiadły tryb życia. Zazwyczaj przebywa na nagich, stromych ścianach. Jego lot jest bardzo sprawny i szybki, co pozwala mu dynamicznie zmienić kierunek lotu, chwycić owada czy uciec drapieżnikowi, a przy wspinaczce pomaga sobie skrzydłami."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Drapieżne",
+            "name": "Pójdźka",
+            "photo": "photos/Results/pojdzka.png",
+            "description": "Pójdźka to rodzaj sowy o częściowo dziennym trybie życia. Jak na sowę dosyć szybko biega. W poszukiwaniu pokarmu potrafi także grzebać w ziemi. Wycinka starych, głowiastych drzew, zamykanie dostępu do strychów i postępująca chemizacja środowiska mocno uderzyły w populację tych ptaków. Zamieszkuje tereny odkryte – pola, łąki, ugory i uprawy leśne. Gnieździ się też w budynkach, na strychach, w zagłębieniach murów. Odżywia się gryzoniami, płazami, gadami i dżdżownicami."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Brązowy", "Żółty", "Szary"],
+            "birdBeak": "Drapieżne",
+            "name": "Pustułka",
+            "photo": "photos/Results/pustulka.png",
+            "description": "Pustułka jest najbardziej rozpoznawalnym gatunkiem sokoła. Nielicznie występuje na terenie Polski. Liczniej przebywa w miastach np. na wieżach kościelnych, jak i na wysokich blokach mieszkalnych. Na polowania wylatuje poza miasto. Zazwyczaj gniazduje pojedynczo, choć spotyka  się kolonie po kilka, kilkanaście par. Jaja składają wprost na podłożu. W zniesieniu jest 4-7 jaj wysiadywanych prze 29dni."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Czerwony", "Żółty", "Szary"],
+            "birdBeak": "Owadożerne",
+            "name": "Rudzik",
+            "photo": "photos/Results/rudzik.png",
+            "description": "Rudzik – wielkości wróbla o dłuższych nogach. Jest to ptak mało płochliwy. Zdarza się, że rudziki pobierają pokarm trzymany przez człowieka na dłoni. Jednak w czasie lęgów mogą i są bardzo agresywne zarówno wobec przedstawicieli swojego gatunku, jak i innych nawet często większych ptaków."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Czerwony", "Czarny"],
+            "birdBeak": "Rybożerne",
+            "name": "Rybitwa",
+            "photo": "photos/Results/rybitwa.png",
+            "description": "Rybitwy są dość często mylone z mewami, z kolei w locie mogą przypominać jaskółki.  Uwielbiają fruwać dość nisko nad wodą, z głową skierowaną w dół. Czasami tworzą gniazda na wystających z wody wrakach. Licznie gnieżdżą się wzdłuż środkowego brzegu Wisły i Bugu, a także na jeziorami i Morzem Bałtyckim."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Rycyk",
+            "photo": "photos/Results/rycyk.png",
+            "description": "Rycyk osiąga wielkość gołębia domowego. Gniazduje na terenach dużych łąk, w dolinach rzek, na bagniskach, a czasem na silnie wypastowanych pastwiskach. Preferuje zdecydowanie tereny o niskiej roślinności. Rycyki bardzo dobrze pływają i są niezwykle waleczne - potrafią przegonić wronę, mewę czy ptaka drapieżnego."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Sieweczka",
+            "photo": "photos/Results/sieweczka.png",
+            "description": "Sieweczka – niewielki, krępo zbudowany ptak zawiązany z otwartymi terenami położonymi w pobliżu rzek lub na wybrzeżach morskich. Warunkiem koniecznym jej egzystencji jest pobliska obecność płytkich zbiorników wodnych. Najmniejszy obok mysikrólika gatunek ptaka w Polsce. Posiada niewielki i bardzo ostro zakończony dzióbek."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy", "Żółty"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Strzyzyk",
+            "photo": "photos/Results/strzyzyk.png",
+            "description": "Strzyżyk zamieszkuje głównie wilgotne lasy liściaste, a także rzadziej obrzeża borów, zarośla śródpolne i zręby w parkach. W czasie lądowania rozkłada szeroko skrzydła i ogon, co sprawia wrażenie, jakby lądował na spadochronie. W zimie strzyżyki budują specjalne gniazda grupowe, w którym mieści się nawet kilkadziesiąt osobników."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Czerwony", "Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Szczygieł",
+            "photo": "photos/Results/szczygiel.png",
+            "description": "Szczygieł cechują się krępą budową ciała oraz mocnym, krótkim dziobem, przystosowanym do wyłuskiwania i pozbawiania osłonek nasion. Zimuje w Polsce. Poza okresem lęgowym tworzy duże stada przebywające na ostach i innych kolczastych roślinach."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Brązowy", "Czarny", "Zielony"],
+            "birdBeak": "Rybożerne",
+            "name": "Tracz",
+            "photo": "photos/Results/tracz.png",
+            "description": "Tracze – od kaczek odróżnia je bardzo wydłużony, dość cienki i zakrzywiony na końcu dziób. Jego brzegi są wyposażone w ostre ząbki, podobne do piły, co uniemożliwia ucieczkę zdobyczy. Pisklęta po wyklucie opuszczają dziuplę, spadając na ziemię, nie czynią sobie jednak żadnej krzywdy. Szczególnie liczny jest na Pojezierzu: Pomorskim i Mazurskim, na dużych i bogatych w ryby jeziorach."
+        },
+        {
+            "birdMonth": ["04", "05", "06", "07", "08", "09", "10"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Brązowy", "Żółty", "Szary"],
+            "birdBeak": "Drapieżne",
+            "name": "Trzmielojad",
+            "photo": "photos/Results/trzmielojad.png",
+            "description": "Trzmielojad to ptak drapieżny powszechnie mylony z myszołowem. Mają bardzo słaby i cienki dziób oraz cienki nogi opatrzone małymi szponami. Przylatuje pod koniec kwietnia, a zimuje w centrum i na południu Afryki. Gniazduje na drzewach. Odżywia się owadami błonkoskrzydłymi (osy) i ich larwami. By wydobyć je z ziemi, przemierza pieszo teren i wykopuje płycej położone gniazda, Plądruje także gniazda os zawieszone na drzewach. Strąca je na ziemię, by dostać się do smacznych i bezbronnych larw i poczwarek. Nie gardzi zawartym w komórkach plastra miodem. Wąskie, szczelinowate nozdrza zabezpieczają układ oddechowy przed zapiaszczeniem. Posiada sute upierzenie, by nie narazić się na użądlenia, naprzód jest pokryty jest twardymi, łuskowatymi piórami."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Brązowy", "Żółty", "Czarny"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Trznadel",
+            "photo": "photos/Results/trznadle.png",
+            "description": "Trznadle to typowe łuszczaki wielkości wróbla. Ich gruby dziób wskazujący na odżywianie się nasionami. Spotkamy go na obrzeżach lasów, zrębach, łąkach, polach, w parkach i ogrodach, a nawet w zadrzewieniach miejskich. Ptak jest wybitnie niepłochliwy daje się obserwować z bardzo bliska. Wiosną powszechnie słychać jego donośny, świdrujący śpiew."
+        },
+        {
+            "birdMonth": ["05", "06", "07", "08"],
+            "birdSize": "Mały",
+            "birdColour": ["Czerwony", "Żółty", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Wilga",
+            "photo": "photos/Results/wilga.png",
+            "description": "Wilga Samiec wilgi ma ciało intensywnie żółte, skrzydła i ogon czarny, a dziób mocno czerwony. Samica natomiast jest zielonkawa, z podłużnym prążkowaniem piersi i brzucha. Przebywają głównie w strefach koron drzew. Wilgi szczególnie często śpiewają wtedy, gdy podniesie się wilgotność powietrza, np. po deszczu czy burzy. Wcinają głównie owady, a szczególnie gąsienice i poczwarki, ale też dojrzewającymi, słodkimi owocami. W sierpniu wylatują, wracają w maju."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Czerwony", "Szary", "Czarny"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Zięba",
+            "photo": "photos/Results/zieba.png",
+            "description": "Zięba - jest jednym z najpospolitszych naszych łuszczaków, licznie występujący szczególnie e środowiskach zmienionych przez człowieka tj. parki i ogrody, aleje położone wzdłuż szos i ulic. Zięba poszukuje pokarmu na ziemi często, poruszając się w charakterystyczny sposób drobnymi kroczkami. Wcina owady i bezkręgowce, ale też roślinnym pokarmem."
+        },
+        {
+            "birdMonth": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Niebieski"],
+            "birdBeak": "Rybożerne",
+            "name": "Zimorodek",
+            "photo": "photos/Results/zimorodek.png",
+            "description": "Zimorodki wbrew powszechnej opinii nie gnieżdżą się zimą. Są za to bardzo przywiązane do swojego terytorium. Nie zwykły przemieszczać się w grupach. Budują głębokie, nawet metrowej długości nory w skarpach nadrzecznych oraz w obrywach i wyrobiskach żwiru. Zimorodek odżywia się niewielkimi rybami i owadami wodnymi. Na ofiary czatuje na wystających ponad wodę gałęziach, palikach, a bywa, że przysiada na końcówkach wędek. Błyskawicznie rzuca się do wody i nurkuje, starając się zachować pozycję zgodną z kierunkiem padania promieni słońca. Złapaną rybkę ogłusza, uderzając nią o gałąź błyskawicznymi ruchami dzioba. Następnie, rozpoczynając od głowy, połyka ją. W Polsce jest gatunkiem nielicznym, albowiem do połowów wymaga bardzo przezroczystej wody, stąd nie spotkamy go nad zanieczyszczonymi rzekami i stawami."
+        },
+        {
+            "birdMonth": ["05", "06", "07", "08"],
+            "birdSize": "Mały",
+            "birdColour": ["Biały", "Niebieski", "Czerwony", "Żółty", "Czarny"],
+            "birdBeak": "Owadożerne",
+            "name": "Żołna",
+            "photo": "photos/Results/zolna.png",
+            "description": "Żołna trafiła do Polski w latach 50. XX w. Zamieszkuje głównie południowo-wschodniej części kraju Zjada głównie owady żądłówki, które chwyta wyłącznie w locie. By pozbyć się niebezpiecznych żądeł, uderza zdobyczą o gałązki. Gnieździ się kolonijnie w norach wygrzebanych w skarpach dolin rzecznych, ścianach wyrobisk żwiru i piasku. Gniazdowiska mogą liczyć do kilkudziesięciu par. Przylatuje w maju, odlatuje pod koniec sierpnia. W lęgu znosi 5-6 jaj na podłoże nory wyścielone chitynowymi resztkami owadów."
+        },
+        {
+            "birdMonth": ["02", "03", "04", "05", "06", "07", "08", "09", "10"],
+            "birdSize": "Duży",
+            "birdColour": ["Biały", "Czerwony", "Szary", "Czarny"],
+            "birdBeak": "Ziarnożerne",
+            "name": "Żuraw",
+            "photo": "photos/Results/zuraw.png",
+            "description": "Żuraw jest mieszkańcem podmokłych łąk, śródleśnych bagien, torfowisk, otoczenia starorzeczy i innych zbiorników wodnych. Odlatuje do krajów okalających Morze Śródziemne. Powraca na przełomie lutego i marca. Ich menu składa się głównie z większych owadów, dżdżownic i drobnych kręgowców"
+        }
     ]
 }

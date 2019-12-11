@@ -105,7 +105,7 @@ form {
 
             & input {
                 display: inline-block;
-                font-size: 1.3rem;
+                font-size: 1.3em;
                 text-align: center;
                 margin-left: 30px;
             }
@@ -127,7 +127,7 @@ form {
                 border-radius: 10px;
                 flex-wrap: wrap;
                 margin: auto;
-                font-size: 1.35rem;
+                font-size: 1.35em;
                 text-align: center;
                 transition: all 0.3s linear;
                 margin-bottom: 25px;
@@ -149,6 +149,7 @@ form {
                 border: 1px solid #e31c0e;
                 margin-bottom: 20px;
                 padding-left: 12px;
+                transition: all 0.3s linear;
 
                 -webkit-user-select: none;
                 -moz-user-select: none;
@@ -182,6 +183,7 @@ form {
                 border-radius: 10px;
                 padding: 0 5px;
                 width: 100%;
+                transition: all 0.3s linear;
 
                 -webkit-user-select: none;
                 -moz-user-select: none;
@@ -222,7 +224,7 @@ form {
 
 
         &__data {
-            font-size: 1.3rem;
+            font-size: 1.3em;
         }
 
     }
@@ -290,11 +292,21 @@ form {
 
 
 
-
+    &__selected{
+        text-align: left;
+        font-size: 0.6em;
+        margin: -30px 0 10px;
+        &__otoWyniki{
+            color: #805a08;
+            display: inline-block;
+            padding-top: 7px;
+            font-size: 1.1em;
+        }
+    }
 
     &__results {
         text-align: center;
-        max-height: 100%;
+        max-height: 80%;
         overflow-y: scroll;
 
         &::-webkit-scrollbar {
@@ -306,11 +318,12 @@ form {
             background-color: antiquewhite;
             margin-bottom: 30px;
             padding: 10px;
-
+            border: 3px solid black;
+            border-radius: 7px;
         }
 
         & h1 {
-            font-size: 2rem
+            font-size: 2em
         }
 
         & img {
@@ -319,7 +332,7 @@ form {
         }
 
         & p {
-            font-size: 1.2rem;
+            font-size: 0.8em;
             text-align: justify;
         }
 
