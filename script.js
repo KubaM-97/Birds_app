@@ -7,8 +7,8 @@ $(function () {
 
 
     ///////////change background photo////////////////
-    let $nr = 0;
-    const $background_Image = ["sowa.jpg", "orly.jpg", "bialorzytki.jpg", "czapla.jpg"];
+    var $nr = 0;
+    var $background_Image = ["sowa.jpg", "orly.jpg", "bialorzytki.jpg", "czapla.jpg"];
 
     setInterval(function () {
 
@@ -18,7 +18,7 @@ $(function () {
             opacity: 1
         });
 
-        const $file = `photos/Main-images/${$background_Image[$nr]}`;
+        var $file = "dist/images/Main-images/"+$background_Image[$nr];
 
         $(".layer").animate({}, 2000, function () {
             $(this).fadeTo(7000, 0.75, function () {
@@ -38,7 +38,7 @@ $(function () {
 
 
     $("input:button").on("click", function () {
-        let $id = $(this).closest(".container").attr("id");
+        var $id = $(this).closest(".container").attr("id");
         $(this).closest(".container").hide(1000);
         $id++;
         $(".container#" + $id).delay(1000).fadeTo(1000, 1);
@@ -47,14 +47,14 @@ $(function () {
 
     $(".arrow-right").hide();
     $(".arrow-right").on("click", function () {
-        let $id = $(this).closest(".container").attr("id");
+        var $id = $(this).closest(".container").attr("id");
         $(this).closest(".container").hide(1000);
         $id++;
         $(".container#" + $id).delay(1000).fadeTo(1000, 1);
     });
 
     $(".arrow-left").on("click", function () {
-        let $id = $(this).closest(".container").attr("id");
+        var $id = $(this).closest(".container").attr("id");
         $(this).closest(".container").hide(1000);
         $id--;
         $(".container#" + $id).delay(1000).fadeTo(1000, 1);
@@ -65,12 +65,12 @@ $(function () {
 
 
     ///////////////////getting Month/////////////////////
-    let $birdMonthValue;
-    let date;
+    var $birdMonthValue;
+    var date;
     $("#datepicker").on("change", function () {
         $(".arrow-right").show();
         date = $("#datepicker").val();
-        const datepickerArray = date.split("-");
+        var datepickerArray = date.split("-");
         $birdMonthValue = datepickerArray[1];
         $("#1 input:button").prop("disabled", false);
 
@@ -83,7 +83,7 @@ $(function () {
 
 
     ///////////////////getting birdSizeValue/////////////////////
-    let $birdSizeValue;
+    var $birdSizeValue;
     $("input[type='radio'][name='birdSize']").on("click", function () {
         $(".arrow-right").show();
         $(".container__content__ans").removeClass("checked");
@@ -119,7 +119,7 @@ $(function () {
 
 
     ///////////////////getting birdBeakValue#1/////////////////////
-    let $birdBeakValue;
+    var $birdBeakValue;
     $("input[type='radio'][name='birdBeak']").on("click", function () {
         $(".arrow-right").show();
         $(".container__content__ans").removeClass("checked");
@@ -160,20 +160,20 @@ $(function () {
 
 
         ///////////////////getting birdBeakValue#2/////////////////////
-        const arraySelectedColours = [];
-        let $birdColourValue;
+        var arraySelectedColours = [];
+        var $birdColourValue;
         $("input:checkbox:checked").each(function () {
             arraySelectedColours.push($(this).val());
         });
 
         ////////////////////////JSON///////////////////////////////////
-        const xhr = new XMLHttpRequest();
+        var xhr = new XMLHttpRequest();
         xhr.onload = function () {
             if (this.status === 200) {
-                const response = JSON.parse(xhr.responseText);
-                const results = response.results;
-                let output = '';
-                for (let i = 0; i < results.length; i++) {
+                var response = JSON.parse(xhr.responseText);
+                var results = response.results;
+                var output = '';
+                for (var i = 0; i < results.length; i++) {
                     results[i].birdMonth.join(" ");
                     if (results[i].birdMonth.join(" ").includes($birdMonthValue)) var confirmMonth = 1;
                 }
@@ -187,12 +187,12 @@ $(function () {
 
 
                 ////////////////////////////////Results//////////////////////
-                for (let i = 0; i < results.length; i++) {
+                for (var i = 0; i < results.length; i++) {
                     console.log(arraySelectedColours);
                     console.log(results[i].birdColour);
 
 
-                    const confirmColours = arraySelectedColours.every(function (val) {
+                    var confirmColours = arraySelectedColours.every(function (val) {
                         return results[i].birdColour.indexOf(val) >= 0
                     });
 
@@ -203,16 +203,12 @@ $(function () {
                         (confirmColours === true) &&
                         (($birdBeakValue === results[i].birdBeak) || ($birdBeakValue === "Pomiń"))) {
 
-                        output += `<li>                
-                    <h1>${results[i].name}</h1>            
-                    <img src=${results[i].photo}>            
-                    <p>${results[i].description}</p>            
-                </li>`;
+                        output +="<li><h1>"+results[i].name+"</h1><img src='results[i].photo'><p>"+results[i].description+"</p></li>";
                     }
                 }
-                $(".container__selected").html(`Wybrano: <br /> <br /> Data obserwacji: ${date}<br /> Rozmiar ptaka: ${$birdSizeValue} <br /> Barwy upierzenia: ${arraySelectedColours} <br /> Typ dzioba: ${$birdBeakValue} <br /> <span class="container__selected__otoWyniki">Oto wyniki:</span> <br />`)
+                $(".container__selected").html("Wybrano: <br /> <br /> Data obserwacji:" + date +"<br /> Rozmiar ptaka: " + $birdSizeValue + "<br /> Barwy upierzenia: " + arraySelectedColours + "<br /> Typ dzioba: " + $birdBeakValue + " <br /> <span class='container__selected__otoWyniki'>Oto wyniki: </span> <br />")
                 $("#results").html(output);
-                if (output.length == 0) $("#results").html(`<h1>Nic nie znaleziono.</h1>`);
+                if (output.length == 0) $("#results").html("<h1>Nic nie znaleziono.</h1>");
             }
         };
         xhr.open("GET", "results.json", true);
