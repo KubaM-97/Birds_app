@@ -15,7 +15,7 @@ body {
 .layer {
   height: 100%;
   width: 100%;
-  background: url(photos/Main-images/sowa.jpg) no-repeat center;
+  background: url(../images/Main-images/sowa.jpg) no-repeat center;
   background-size: cover;
   position: absolute;
   /* animation: example 50s infinite ease-in; */ }
