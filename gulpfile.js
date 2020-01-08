@@ -1,7 +1,7 @@
 const gulp = require("gulp");
 const imagemin = require("gulp-imagemin");
-let babel = require('gulp-babel');
-let uglify = require("gulp-uglify");
+const babel = require('gulp-babel');
+const uglify = require("gulp-uglify");
 const sass = require("gulp-sass");
 
 gulp.task("imagemin", async function(){
@@ -22,4 +22,4 @@ gulp.task("sass", async function(){
     .pipe(gulp.dest("dist/css"));
 });
 
-// gulp.task("default", ["imagemin", "uglify", "sass"]);
+ gulp.task("default", ["imagemin", "uglify", "sass"]);

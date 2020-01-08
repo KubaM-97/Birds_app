@@ -8,7 +8,7 @@ $(function () {
 
     ///////////change background photo////////////////
     var $nr = 0;
-    var $background_Image = ["sowa.jpg", "orly.jpg", "bialorzytki.jpg", "czapla.jpg"];
+    var $background_Image = ["orly.jpg", "bialorzytki.jpg", "sowa.jpg", "czapla.jpg"];
 
     setInterval(function () {
 
@@ -203,7 +203,7 @@ $(function () {
                         (confirmColours === true) &&
                         (($birdBeakValue === results[i].birdBeak) || ($birdBeakValue === "Pomiń"))) {
 
-                        output +="<li><h1>"+results[i].name+"</h1><img src='results[i].photo'><p>"+results[i].description+"</p></li>";
+                        output +="<li><h1>"+results[i].name+"</h1><img src="+results[i].photo+"><p>"+results[i].description+"</p></li>";
                     }
                 }
                 $(".container__selected").html("Wybrano: <br /> <br /> Data obserwacji:" + date +"<br /> Rozmiar ptaka: " + $birdSizeValue + "<br /> Barwy upierzenia: " + arraySelectedColours + "<br /> Typ dzioba: " + $birdBeakValue + " <br /> <span class='container__selected__otoWyniki'>Oto wyniki: </span> <br />")
